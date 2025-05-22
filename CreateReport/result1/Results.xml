@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="2021" os="" host="DESKTOP-L56NSFN"><DocLocation><![CDATA[C:\Users\Admin\Documents\VuGen\Scripts\Team_3_UC_02_creating_report]]></DocLocation></General>
+<General productName="Vugen" productVer="2021" os="" host="WINCTRL-C16BKUS"><DocLocation><![CDATA[C:\Users\JDM\Desktop\QAP\Boomq\Scripts\CreateReport]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
-<DName><![CDATA[Team_3_UC_02_creating_report]]></DName>
+<DName><![CDATA[Team_3_UC_02_creating_reportv2]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="20.05.2025 - 23:09:37" eTime="20.05.2025 - 23:09:37" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="22.05.2025 - 17:43:48" eTime="22.05.2025 - 17:43:48" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -144,305 +144,277 @@
 <Action rID="T4">
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
-<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:45]]></Time>
-<TimeTick>1747771785</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="9" >
-<Disp><![CDATA[Service: Add Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: authorize]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:50]]></Time>
+<TimeTick>1747925030</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: authorize]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T7">
+<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>4096</FONT></STRONG> characters</CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="11" >
+<Time><![CDATA[22.05.2025 - 17:43:50]]></Time>
+<TimeTick>1747925030</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>authToken</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=authorization:</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=
-</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="12" >
-<Disp><![CDATA[Service: Reg Save Param]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T9">
+<Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>authTokenCookie</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=set-cookie: boomq_auth=</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=;</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="13" >
+<Time><![CDATA[22.05.2025 - 17:43:50]]></Time>
+<TimeTick>1747925030</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="11" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T10">
+<Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="14" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Data: login]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T11">
+<Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Url: modelSchema]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: modelSchema]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
+<Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjYwNDAsInVzZXJfbmFtZSI6InVzZXI2OTA4QGV4YW1wbGUuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IkVOIiwiZXhwIjoxNzQ3ODE1MDEyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZTVmOTIzYzYtYzliMy00YjFlLThhZGYtNjU1ZjYyMjNkYTU5IiwiY2xpZW50X2lkIjoiY2xpZW50In0.uVxkzj6Sdxl3cHve34hsy0UrvmmJQTxY_s-gtUsshkp9gWjolmpWoKe5_NPXbFpevSLZdujCROYMVfquhgGAfK7glKP-ZaQQ3XiRQen9ng8b5bVGHsemziM4u4pYq5u1Lw7K_8sH4DGpyZgQi3Ck0TG41j-jBRYXfsRrjV_4nasUEsX_hhNbS6piJXCixAYXCBvYds8Y-ZmuGUXg4ig2GygUPwuIZY3PRn5XJNtfFLF53ZB7d319upRD97D94GXJX1gvRbghfuURk8o09NmKQl-kNx8lxKfrq03NpBSaVEBkTYAMaXRZFyQQr9zWUdl0QacH0Exb5eFPs7-431FE7g</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="16" >
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5OTAsInVzZXJfbmFtZSI6Ik5pazI1ODVAZXhhbXBsZS5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NDc5NjgyMzIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJkMmRjZDUzZS03ZTBkLTQ1ZmItYThhMy0yYmY2YjhkYjlmMDgiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.iYzGK3hKuKLuKeJ6I6MIA6jEeSmXvHyztyoPtHdpWYDHGV2KOscMuLGh3LuPt-ysYL8x9-SD-6ACjKqh-xng5iJFgoglWfE-nQdBFOJRDci19lLPB7rjXd1o71rqWGjAERolv2WmL4Jx0hR_xL9XK3ycxmJSyIVRuZesNwJ0Y_qCcc2W07-K05wt_bLEI9jpCo1RH3WyTqSjmDmxLg1hN2C9KJP8DxsvGjaa2n1ZabONivVvy-92Gxrs0j-qlR5zctQVqxnTzhphNaCUuKkmbeheAIGsyZZgGZeffCshRKrAp1xn8GnlLH-pc0z0UjAYo8d_HOgKhzYPtnPOamz1zA</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="14" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T13">
+<Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Url: config.json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="17" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="15" status="Passed" >
 <Disp><![CDATA[Url: config.json]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T14">
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Url: user]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="18" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="16" status="Passed" >
 <Disp><![CDATA[Url: user]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T15">
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Url: identityProvider]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:48]]></Time>
-<TimeTick>1747771788</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="19" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="17" status="Passed" >
 <Disp><![CDATA[Url: identityProvider]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T16">
+<Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Url: team]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="20" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="18" status="Passed" >
 <Disp><![CDATA[Url: team]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T17">
+<Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>teamContextCookie</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=set-cookie: boomq_auth=</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=
 </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="21" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="19" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T18">
+<Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Url: teamContext]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="22" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="20" status="Passed" >
 <Disp><![CDATA[Url: teamContext]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t8.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T19">
+<Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Url: testRunner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="23" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="21" status="Passed" >
 <Disp><![CDATA[Url: testRunner]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t9.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T20">
+<Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: https://dev-boomq.pflb.ru</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="9" nRep="24" >
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5OTAsInVzZXJfbmFtZSI6Ik5pazI1ODVAZXhhbXBsZS5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ0ZWFtX21lbWJlciI6IntcImlkXCI6MjA3NixcInRlYW1JZFwiOjIyLFwidXNlcklkXCI6MTk5MCxcImVtYWlsXCI6XCJOaWsyNTg1QGV4YW1wbGUuY29tXCIsXCJ1c2VyRGlzcGxheU5hbWVcIjpcIk5pazI1ODVcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiRURJVFwiLFwiUlVOXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjUtMDUtMjJUMTM6MDc6MzUuMzE3WlwiLFwidXBkYXRlZEF0XCI6XCIyMDI1LTA1LTIyVDEzOjA3OjM1LjYzMlpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyMiwiZXhwIjoxNzQ3OTY4MjMyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiY2ZmNzM1OWUtZmFiZS00OTc5LTg0MTktNzhjMDdmOWUyNjFjIiwiY2xpZW50X2lkIjoiY2xpZW50In0.NMQTMa3WYoFLKIeA4fyleZuLPEmMEtsuRGS7Ve3DaWZ12amspoM0jWOPV_7lZSPYN_nBjSprb4ManbkcPys95NTlBvvTR-B48xy5g_e-v9FbZeKKlfAtOEVSmzouY-KTo00kcvO6kjyyxU885zSTCzAQ_W0EHjwcA_ihgeQwY8-JMuOukFHMJBnW4XHdbQ3a5hLOYFk-cS9-qFj1IWs0-tygBCrFRDQxMEs7GvTjmN_Y_6kPcMNYGkpWNaIRC3l2u__PKzYR_9EaWtWtCHP0jAiCKAaGED1BdFU2Be8dYTaWnj3UQLX5rjy9jAlHnuceOYpHnd9h3YmS-ApbDsaung; boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5OTAsInVzZXJfbmFtZSI6Ik5pazI1ODVAZXhhbXBsZS5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NDc5NjgyMzIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJkMmRjZDUzZS03ZTBkLTQ1ZmItYThhMy0yYmY2YjhkYjlmMDgiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.iYzGK3hKuKLuKeJ6I6MIA6jEeSmXvHyztyoPtHdpWYDHGV2KOscMuLGh3LuPt-ysYL8x9-SD-6ACjKqh-xng5iJFgoglWfE-nQdBFOJRDci19lLPB7rjXd1o71rqWGjAERolv2WmL4Jx0hR_xL9XK3ycxmJSyIVRuZesNwJ0Y_qCcc2W07-K05wt_bLEI9jpCo1RH3WyTqSjmDmxLg1hN2C9KJP8DxsvGjaa2n1ZabONivVvy-92Gxrs0j-qlR5zctQVqxnTzhphNaCUuKkmbeheAIGsyZZgGZeffCshRKrAp1xn8GnlLH-pc0z0UjAYo8d_HOgKhzYPtnPOamz1zA</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="22" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T21">
-<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjYwNDAsInVzZXJfbmFtZSI6InVzZXI2OTA4QGV4YW1wbGUuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidGVhbV9tZW1iZXIiOiJ7XCJpZFwiOjYyMDEsXCJ0ZWFtSWRcIjoyNSxcInVzZXJJZFwiOjYwNDAsXCJlbWFpbFwiOlwidXNlcjY5MDhAZXhhbXBsZS5jb21cIixcInVzZXJEaXNwbGF5TmFtZVwiOlwidXNlcjY5MDhcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiRURJVFwiLFwiVklFV1wiLFwiUlVOXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjUtMDUtMjBUMTg6NTA6MTUuNzQxWlwiLFwidXBkYXRlZEF0XCI6XCIyMDI1LTA1LTIwVDE4OjUwOjE2LjEwMFpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyNSwiZXhwIjoxNzQ3ODE1MDEzLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZGNhOTcxNGItZDA0Zi00OTM3LWIzMTMtZTg1NDZlNGQzZDNhIiwiY2xpZW50X2lkIjoiY2xpZW50In0.YNLOr49Yp4QzbidirN_LTbjuzwWac3x1ggM1RerW_1gUibF4E2eEgg3751O9mi9k34yFEGANtC7Q5pza-H3tBW1Ge4dbFqyLHjkdkcRxfUh8D9X0WRkMpjit5ybvRsA5A9IDiC8mEbtrg0YHa8hi-gvO0Y7sZ-n_QBY0sEfWOTI9NzUavrFPVCTW6assecXlJMwZKqQ3mMhXl8NM1Ar3VTjUmY902jjKBQdAlwde1nwD2igt00BczKEC75EP9BTevuWhX3V3lD_rq0f0_aehsDO3QL4fjcTFmEKbNj4iA0xddVqzGk0quWSFepWV8kG7wdd92RbpYUWNhl6nGq2M_Q; boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjYwNDAsInVzZXJfbmFtZSI6InVzZXI2OTA4QGV4YW1wbGUuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IkVOIiwiZXhwIjoxNzQ3ODE1MDEyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZTVmOTIzYzYtYzliMy00YjFlLThhZGYtNjU1ZjYyMjNkYTU5IiwiY2xpZW50X2lkIjoiY2xpZW50In0.uVxkzj6Sdxl3cHve34hsy0UrvmmJQTxY_s-gtUsshkp9gWjolmpWoKe5_NPXbFpevSLZdujCROYMVfquhgGAfK7glKP-ZaQQ3XiRQen9ng8b5bVGHsemziM4u4pYq5u1Lw7K_8sH4DGpyZgQi3Ck0TG41j-jBRYXfsRrjV_4nasUEsX_hhNbS6piJXCixAYXCBvYds8Y-ZmuGUXg4ig2GygUPwuIZY3PRn5XJNtfFLF53ZB7d319upRD97D94GXJX1gvRbghfuURk8o09NmKQl-kNx8lxKfrq03NpBSaVEBkTYAMaXRZFyQQr9zWUdl0QacH0Exb5eFPs7-431FE7g</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="9" nRep="25" >
-<Disp><![CDATA[Service: Add Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T22">
+<Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjYwNDAsInVzZXJfbmFtZSI6InVzZXI2OTA4QGV4YW1wbGUuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidGVhbV9tZW1iZXIiOiJ7XCJpZFwiOjYyMDEsXCJ0ZWFtSWRcIjoyNSxcInVzZXJJZFwiOjYwNDAsXCJlbWFpbFwiOlwidXNlcjY5MDhAZXhhbXBsZS5jb21cIixcInVzZXJEaXNwbGF5TmFtZVwiOlwidXNlcjY5MDhcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiRURJVFwiLFwiVklFV1wiLFwiUlVOXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjUtMDUtMjBUMTg6NTA6MTUuNzQxWlwiLFwidXBkYXRlZEF0XCI6XCIyMDI1LTA1LTIwVDE4OjUwOjE2LjEwMFpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyNSwiZXhwIjoxNzQ3ODE1MDEzLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZGNhOTcxNGItZDA0Zi00OTM3LWIzMTMtZTg1NDZlNGQzZDNhIiwiY2xpZW50X2lkIjoiY2xpZW50In0.YNLOr49Yp4QzbidirN_LTbjuzwWac3x1ggM1RerW_1gUibF4E2eEgg3751O9mi9k34yFEGANtC7Q5pza-H3tBW1Ge4dbFqyLHjkdkcRxfUh8D9X0WRkMpjit5ybvRsA5A9IDiC8mEbtrg0YHa8hi-gvO0Y7sZ-n_QBY0sEfWOTI9NzUavrFPVCTW6assecXlJMwZKqQ3mMhXl8NM1Ar3VTjUmY902jjKBQdAlwde1nwD2igt00BczKEC75EP9BTevuWhX3V3lD_rq0f0_aehsDO3QL4fjcTFmEKbNj4iA0xddVqzGk0quWSFepWV8kG7wdd92RbpYUWNhl6nGq2M_Q</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="26" >
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5OTAsInVzZXJfbmFtZSI6Ik5pazI1ODVAZXhhbXBsZS5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ0ZWFtX21lbWJlciI6IntcImlkXCI6MjA3NixcInRlYW1JZFwiOjIyLFwidXNlcklkXCI6MTk5MCxcImVtYWlsXCI6XCJOaWsyNTg1QGV4YW1wbGUuY29tXCIsXCJ1c2VyRGlzcGxheU5hbWVcIjpcIk5pazI1ODVcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiRURJVFwiLFwiUlVOXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjUtMDUtMjJUMTM6MDc6MzUuMzE3WlwiLFwidXBkYXRlZEF0XCI6XCIyMDI1LTA1LTIyVDEzOjA3OjM1LjYzMlpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyMiwiZXhwIjoxNzQ3OTY4MjMyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiY2ZmNzM1OWUtZmFiZS00OTc5LTg0MTktNzhjMDdmOWUyNjFjIiwiY2xpZW50X2lkIjoiY2xpZW50In0.NMQTMa3WYoFLKIeA4fyleZuLPEmMEtsuRGS7Ve3DaWZ12amspoM0jWOPV_7lZSPYN_nBjSprb4ManbkcPys95NTlBvvTR-B48xy5g_e-v9FbZeKKlfAtOEVSmzouY-KTo00kcvO6kjyyxU885zSTCzAQ_W0EHjwcA_ihgeQwY8-JMuOukFHMJBnW4XHdbQ3a5hLOYFk-cS9-qFj1IWs0-tygBCrFRDQxMEs7GvTjmN_Y_6kPcMNYGkpWNaIRC3l2u__PKzYR_9EaWtWtCHP0jAiCKAaGED1BdFU2Be8dYTaWnj3UQLX5rjy9jAlHnuceOYpHnd9h3YmS-ApbDsaung</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="23" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T23">
+<Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[Custom Request: search]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="10" nRep="27" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="24" status="Passed" >
 <Disp><![CDATA[Custom Request: search]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t10.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T24">
+<Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[Url: test]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="28" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="25" status="Passed" >
 <Disp><![CDATA[Url: test]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t11.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T25">
+<Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: https://dev-boomq.pflb.ru</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="9" nRep="29" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="26" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T26">
+<Step rID="T23">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>reportId</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$.id</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="30" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="27" >
 <Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T27">
+<Step rID="T24">
 <Obj plainTxt="False" ><![CDATA[Custom Request: report]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="10" nRep="31" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="28" status="Passed" >
 <Disp><![CDATA[Custom Request: report]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t13.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T28">
-<Obj plainTxt="False" ><![CDATA[Url: 5851]]></Obj>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Url: report]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="32" status="Passed" >
-<Disp><![CDATA[Url: 5851]]></Disp>
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="29" status="Passed" >
+<Disp><![CDATA[Url: report]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t14.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T29">
+<Step rID="T26">
 <Obj plainTxt="False" ><![CDATA[Url: content]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:49]]></Time>
-<TimeTick>1747771789</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="33" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="30" status="Passed" >
 <Disp><![CDATA[Url: content]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t15.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T30">
+<Step rID="T27">
 <Obj plainTxt="False" ><![CDATA[Url: test_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[20.05.2025 - 23:09:50]]></Time>
-<TimeTick>1747771790</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="34" status="Passed" >
+<Time><![CDATA[22.05.2025 - 17:43:51]]></Time>
+<TimeTick>1747925031</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="31" status="Passed" >
 <Disp><![CDATA[Url: test_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t16.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="20.05.2025 - 23:09:37" eTime="20.05.2025 - 23:09:50" passed="15" failed="0" warnings="0" ></Summary>
+<Summary sTime="22.05.2025 - 17:43:48" eTime="22.05.2025 - 17:43:51" passed="15" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
 <NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
-<Disp><![CDATA[Team_3_UC_02_creating_report Iteration 1 (Row 1)]]></Disp>
+<Disp><![CDATA[Team_3_UC_02_creating_reportv2 Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T31">
+<Action rID="T28">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="20.05.2025 - 23:09:50" eTime="20.05.2025 - 23:09:50" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="37" >
+<Summary sTime="22.05.2025 - 17:43:51" eTime="22.05.2025 - 17:43:51" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="34" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="20.05.2025 - 23:09:37" eTime="20.05.2025 - 23:09:50" passed="15" failed="0" warnings="0" ></Summary>
+<Summary sTime="22.05.2025 - 17:43:48" eTime="22.05.2025 - 17:43:51" passed="15" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
-<Disp><![CDATA[Test Team_3_UC_02_creating_report Summary]]></Disp>
+<Disp><![CDATA[Test Team_3_UC_02_creating_reportv2 Summary]]></Disp>
 </NodeArgs>
 </Doc>
 </Report>
