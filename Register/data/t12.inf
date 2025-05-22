@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_ip.json
+URL1=https://worldtimeapi.org/api/ip
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_11.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

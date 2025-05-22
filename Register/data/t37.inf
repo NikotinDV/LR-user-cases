@@ -1,0 +1,11 @@
+[t37]
+FileName1=t37.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/user
+Total=1
+RequestHeaderFile=t37_RequestHeader.txt
+RequestBodyFile=t37_RequestBody.txt
+ResponseHeaderFile=t37_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_35.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

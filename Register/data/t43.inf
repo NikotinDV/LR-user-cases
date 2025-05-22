@@ -1,0 +1,11 @@
+[t43]
+FileName1=t43_teamMember.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=25&page=0&size=12
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_41.xml
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t12]
+FileName1=t12_slaReportProfile.json
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+FileName2=t12_arrow.659530470e6be7b696f0d3d15a3179f5.svg
+URL2=https://dev-boomq.pflb.ru/static/media/arrow.659530470e6be7b696f0d3d15a3179f5.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,6 @@
+[t15]
+FileName1=t15_136.0.3240.json
+URL1=https://config.edge.skype.com/config/v1/Edge/136.0.3240.76?clientId=8716026355019364935&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.19045&wu=1&devicefamily=desktop&soobedate=1559512017&uma=0&sessionid=546&mngd=0&installdate=1618608511&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747668601&lafgdate=0
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_15.xml

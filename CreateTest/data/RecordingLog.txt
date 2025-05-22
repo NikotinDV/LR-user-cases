@@ -1,0 +1,1193 @@
+[API Trapper      (258c:3550)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (4cc4: 48c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4cc4: 48c)] Load Network Traffic Analyzers:
+[Network Analyzer (4cc4: 48c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4cc4: 48c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (4cc4: 48c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4cc4: 48c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (4cc4: 48c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (4cc4: 48c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4cc4: 48c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (4cc4: 48c)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (4cc4: 48c)] Started proxy on port 12334 listening IP 192.168.56.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63921
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63922
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63923
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63924
+[Proxy Recording  (4cc4:1964)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63925
+[Proxy Recording  (4cc4:1964)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4cc4:1964)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63927
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63928
+[Web Request      (4cc4:1964)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4cc4:1964)]   (Sid:  1) Client -> Server @ : 355 bytes (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Sent 90 bytes to client @ 192.168.56.1:63921
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63929
+[Proxy Recording  (4cc4:2538)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63930
+[Proxy Recording  (4cc4:2538)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63931
+[Proxy Recording  (4cc4:1964)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:2538)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63933
+[Web Request      (4cc4:2538)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63934
+[Network Analyzer (4cc4:2538)]   (Sid:  2) Client -> Server @ : 348 bytes (Service=HTTP)
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63935
+[Network Analyzer (4cc4:2538)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:2538)] Sent 8 bytes to client @ 192.168.56.1:63929
+[Proxy Recording  (4cc4:1964)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (4cc4:1964)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (4cc4:1964)]   (Sid:  3) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid:  3) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid:  3) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Sent 8 bytes to client @ 192.168.56.1:63930
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63938
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63939
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63940
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63941
+[Proxy Recording  (4cc4: b80)] Received response of 500 header and 5303 body bytes from https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain
+[Web Request      (4cc4: b80)] "GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain"   
+[Network Analyzer (4cc4: b80)]   (Sid:  4) Client -> Server @ : 414 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid:  4) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid:  4) Server -> Client : 5303 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Sent 5303 bytes to client @ 192.168.56.1:63923
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63942
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63943
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63944
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4:4750)] Received response of 500 header and 5303 body bytes from https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://ads.mozilla.org:443/v1/ads ...
+[Web Request      (4cc4:4750)] "GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain"   
+[Network Analyzer (4cc4:4750)]   (Sid:  5) Client -> Server @ : 390 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  5) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  5) Server -> Client : 5303 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4750)] Sent 5303 bytes to client @ 192.168.56.1:63924
+[Proxy Recording  (4cc4:4750)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:4750)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4cc4:4750)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4cc4:4750)]   (Sid:  6) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  6) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  6) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:4750)] Sent 8 bytes to client @ 192.168.56.1:63942
+[Proxy Recording  (4cc4:4750)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:4750)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://ads.mozilla.org:443/v1/ads ...
+[Web Request      (4cc4:4750)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (4cc4:4750)]   (Sid:  7) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  7) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid:  7) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:4750)] Sent 8 bytes to client @ 192.168.56.1:63943
+[Proxy Recording  (4cc4:332c)] Received response of 210 header and 59 body bytes from https://ads.mozilla.org:443/v1/ads
+[Network Analyzer (4cc4:332c)]   (Sid:  8) Client -> Server @ : 362 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:332c)] "POST https://ads.mozilla.org/v1/ads"   
+[Network Analyzer (4cc4:332c)]   (Sid:  8) Client -> Server @ : 204 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid:  8) Server -> Client : 227 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid:  8) Server -> Client : 59 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:332c)] Sent 59 bytes to client @ 192.168.56.1:63922
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (4cc4:3798)] Received response of 306 header and 655 body bytes from https://dev-boomq.pflb.ru:443/authorize
+[Web Request      (4cc4:3798)] "GET https://dev-boomq.pflb.ru/authorize"   
+[Network Analyzer (4cc4:3798)]   (Sid:  9) Client -> Server @ : 522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid:  9) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid:  9) Server -> Client : 655 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 655 bytes to client @ 192.168.56.1:63925
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63950
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63951
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63952
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63956
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63955
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain ...
+[Proxy Recording  (4cc4:1060)] Received response of 143 header and 0 body bytes from https://content-signature-2.cdn.mozilla.net:443/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/ ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/ ...
+[Web Request      (4cc4:1060)] "GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain"   
+[Network Analyzer (4cc4:1060)]   (Sid: 10) Client -> Server @ : 491 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1060)]   (Sid: 10) Server -> Client : 170 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:63928
+[Proxy Recording  (4cc4:1060)] Trying to connect to http://www.msftncsi.com/ncsi.txt ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to http://www.msftncsi.com/ncsi.txt ...
+[Proxy Recording  (4cc4:1060)] Received response of 153 header and 14 body bytes from http://www.msftncsi.com/ncsi.txt
+[Proxy Recording  (4cc4:1060)] Sent 14 bytes to client @ 192.168.56.1:63956
+[Proxy Recording  (4cc4:1060)] Trying to connect to http://ipv6.msftncsi.com/ncsi.txt ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to http://ipv6.msftncsi.com/ncsi.txt ...
+[Proxy Recording.Error (4cc4:1060)] Failed to connect to server http://ipv6.msftncsi.com/ncsi.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4: 688)] Received response of 475 header and 1228 body bytes from https://firefox.settings.services.mozilla.com:443/v1/
+[Web Request      (4cc4: 688)] "GET https://firefox.settings.services.mozilla.com/v1/"   
+[Network Analyzer (4cc4: 688)]   (Sid: 11) Client -> Server @ : 334 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 11) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 11) Server -> Client : 1228 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: 688)] Sent 1228 bytes to client @ 192.168.56.1:63927
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:5680)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (4cc4:5680)]   (Sid: 12) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:5680)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4cc4:5680)]   (Sid: 12) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:5680)]   (Sid: 12) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:5680)]   (Sid: 12) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:5680)] Sent 468 bytes to client @ 192.168.56.1:63931
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63963
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDNxBsaAhgLTEhjniICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEODsEBoCGAsWc3KbIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQgOQQGgIYC28j5IAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD3pxEaAhgLesqriCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgLl55IyyICIAIoAQ== ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDNxBsaAhgLTEhjniICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEODsEBoCGAsWc3KbIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQgOQQGgIYC28j5IAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD3pxEaAhgLesqriCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgLl55IyyICIAIoAQ== ...
+[Proxy Recording  (4cc4:43a0)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (4cc4:43a0)]   (Sid: 13) Client -> Server @ : 261 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:43a0)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 13) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 13) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 13) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 468 bytes to client @ 192.168.56.1:63934
+[Proxy Recording  (4cc4:5450)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (4cc4:5450)]   (Sid: 14) Client -> Server @ : 261 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:5450)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4cc4:5450)]   (Sid: 14) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:5450)]   (Sid: 14) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:5450)]   (Sid: 14) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:5450)] Sent 468 bytes to client @ 192.168.56.1:63935
+[Proxy Recording  (4cc4:4720)] Received response of 341 header and 54736 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDNxBsaAhgLTEhjniICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEODsEBoCGAsWc3KbIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQgOQQGgIYC28j5IAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD3pxEaAhgLesqriCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgLl55IyyICIAIoAQ==
+[Web Request      (4cc4:4720)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDNxBsaAhgLTEhjniICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEODsEBoCGAsWc3KbIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQgOQQGgIYC28j5IAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD3pxEaAhgLesqriCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgLl55IyyICIAIoAQ=="   
+[Network Analyzer (4cc4:4720)]   (Sid: 15) Client -> Server @ : 893 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4720)]   (Sid: 15) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:4720)]   (Sid: 15) Server -> Client : 54736 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4720)] Sent 54736 bytes to client @ 192.168.56.1:63933
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4cc4:2538)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4:2538)]   (Sid: 16) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 16) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4cc4: b80)] Received response of 125 header and 0 body bytes from https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1 ...
+[Web Request      (4cc4: b80)] "GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"   
+[Network Analyzer (4cc4: b80)]   (Sid: 17) Client -> Server @ : 512 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1 ...
+[Network Analyzer (4cc4: b80)]   (Sid: 17) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:63940
+[Proxy Recording  (4cc4:1964)] Received response of 406 header and 42 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1
+[Web Request      (4cc4:1964)] "GET https://aus5.mozilla.org/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1"   
+[Network Analyzer (4cc4:1964)]   (Sid: 18) Client -> Server @ : 512 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 18) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 18) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Sent 42 bytes to client @ 192.168.56.1:63939
+[Proxy Recording.Error (4cc4:4750)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4cc4:4750)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (4cc4:332c)] Received response of 292 header and 23017 body bytes from https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css
+[Web Request      (4cc4:332c)] "GET https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"   
+[Network Analyzer (4cc4:332c)]   (Sid: 19) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 19) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 19) Server -> Client : 23017 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:332c)] Sent 23017 bytes to client @ 192.168.56.1:63951
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63978
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/65b24d69-d13f-4a78-8b0f-09708418608a ...
+[Proxy Recording.Error (4cc4:56f8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63979
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/65b24d69-d13f-4a78-8b0f-09708418608a ...
+[Proxy Recording  (4cc4:3798)] Received response of 322 header and 889798 body bytes from https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js
+[Web Request      (4cc4:3798)] "GET https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"   
+[Network Analyzer (4cc4:3798)]   (Sid: 20) Client -> Server @ : 437 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 20) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 20) Server -> Client : 889798 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 889798 bytes to client @ 192.168.56.1:63950
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63981
+[Proxy Recording  (4cc4:56f8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/65b24d69-d13f-4a78-8b0f-09708418608a
+[Network Analyzer (4cc4:56f8)]   (Sid: 21) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:56f8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/65b24d69-d13f-4a78-8b0f-09708418608a"   
+[Network Analyzer (4cc4:56f8)]   (Sid: 21) Client -> Server @ : 2211 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:56f8)]   (Sid: 21) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:56f8)]   (Sid: 21) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:56f8)] Sent 20 bytes to client @ 192.168.56.1:63941
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63982
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63983
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63984
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63985
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:63986
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=24.888&seg=22&t=1747798129738 ...
+[Proxy Recording.Error (4cc4: dd4)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=24.888&seg=22&t=1747798129738 ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT ...
+[Proxy Recording  (4cc4:2538)] Received response of 258 header and 1016 body bytes from https://dev-boomq.pflb.ru:443/favicon.png
+[Web Request      (4cc4:2538)] "GET https://dev-boomq.pflb.ru/favicon.png"   
+[Network Analyzer (4cc4:2538)]   (Sid: 22) Client -> Server @ : 502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 22) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/9123ce06-4447-4738-917c-7f1be87b5914 ...
+[Network Analyzer (4cc4:2538)]   (Sid: 22) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (4cc4:332c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:2538)] Sent 1016 bytes to client @ 192.168.56.1:63978
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/9123ce06-4447-4738-917c-7f1be87b5914 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64000
+[Proxy Recording  (4cc4:43a0)] Received response of 263 header and 8365 body bytes from https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg
+[Web Request      (4cc4:43a0)] "GET https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 23) Client -> Server @ : 548 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 23) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 23) Server -> Client : 8365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 8365 bytes to client @ 192.168.56.1:63983
+[Proxy Recording  (4cc4: b80)] Received response of 262 header and 138600 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff
+[Proxy Recording  (4cc4:3798)] Received response of 262 header and 1861 body bytes from https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg
+[Web Request      (4cc4: b80)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"   
+[Network Analyzer (4cc4: b80)]   (Sid: 24) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid: 24) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Network Analyzer (4cc4: b80)]   (Sid: 24) Server -> Client : 138600 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (4cc4: b80)] Sent 138600 bytes to client @ 192.168.56.1:63979
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Web Request      (4cc4:3798)] "GET https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"   
+[Network Analyzer (4cc4:3798)]   (Sid: 25) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT
+[Proxy Recording  (4cc4:4720)] Received response of 262 header and 138232 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff
+[Network Analyzer (4cc4:3798)]   (Sid: 25) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 25) Server -> Client : 1861 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 1861 bytes to client @ 192.168.56.1:63984
+[Proxy Recording  (4cc4:1060)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64002
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:63981
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64004
+[Web Request      (4cc4:4720)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"   
+[Network Analyzer (4cc4:4720)]   (Sid: 26) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4720)]   (Sid: 26) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:4720)]   (Sid: 26) Server -> Client : 138232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4720)] Sent 138232 bytes to client @ 192.168.56.1:63986
+[Proxy Recording  (4cc4:4750)] Received response of 262 header and 138516 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/ping?r=3471698714be&lid=1562 ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/ping?r=3471698714be&lid=1562 ...
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:63963
+[Web Request      (4cc4:4750)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"   
+[Network Analyzer (4cc4:4750)]   (Sid: 27) Client -> Server @ : 533 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid: 27) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT ...
+[Network Analyzer (4cc4:4750)]   (Sid: 27) Server -> Client : 138516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT ...
+[Proxy Recording  (4cc4:4750)] Sent 138516 bytes to client @ 192.168.56.1:63985
+[Proxy Recording  (4cc4: b80)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_FETCH_SEGMENT_TIMEOUT
+[Proxy Recording  (4cc4:56f8)] Received response of 818 header and 10 body bytes from https://strm-m9-18.strm.yandex.net:443/ping?r=3471698714be&lid=1562
+[Proxy Recording  (4cc4: 688)] Received response of 262 header and 138900 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64004
+[Proxy Recording  (4cc4:56f8)] Sent 10 bytes to client @ 192.168.56.1:64002
+[Web Request      (4cc4: 688)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"   
+[Network Analyzer (4cc4: 688)]   (Sid: 28) Client -> Server @ : 531 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 28) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 28) Server -> Client : 138900 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: 688)] Sent 138900 bytes to client @ 192.168.56.1:64000
+[Proxy Recording  (4cc4: dd4)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=24.888&seg=22&t=1747798129738
+[Proxy Recording  (4cc4: dd4)] Sent 5615333 bytes to client @ 192.168.56.1:63952
+[Proxy Recording  (4cc4:332c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/9123ce06-4447-4738-917c-7f1be87b5914
+[Web Request      (4cc4:332c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/9123ce06-4447-4738-917c-7f1be87b5914"
+[Network Analyzer (4cc4:332c)]   (Sid: 29) Client -> Server @ : 636 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 29) Client -> Server @ : 31637 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 29) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 29) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:332c)] Sent 20 bytes to client @ 192.168.56.1:63982
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64007
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2776c626-c981-4dd0-9131-c2a0bd74127b ...
+[Proxy Recording.Error (4cc4:1060)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2776c626-c981-4dd0-9131-c2a0bd74127b ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64009
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64011
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=28.082&seg=23&t=1747798130545 ...
+[Proxy Recording.Error (4cc4:4750)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=28.082&seg=23&t=1747798130545 ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=30SecHeartbeat ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=30SecHeartbeat ...
+[Proxy Recording  (4cc4:1964)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=30SecHeartbeat
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:64011
+[Proxy Recording  (4cc4:1060)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2776c626-c981-4dd0-9131-c2a0bd74127b
+[Network Analyzer (4cc4:1060)]   (Sid: 30) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:1060)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/2776c626-c981-4dd0-9131-c2a0bd74127b"   
+[Network Analyzer (4cc4:1060)]   (Sid: 30) Client -> Server @ : 2522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1060)]   (Sid: 30) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:1060)]   (Sid: 30) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:1060)] Sent 20 bytes to client @ 192.168.56.1:64007
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64013
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/42f97f03-dd53-4c97-816d-f10efe563144 ...
+[Proxy Recording.Error (4cc4: 688)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/42f97f03-dd53-4c97-816d-f10efe563144 ...
+[Proxy Recording  (4cc4: 688)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/42f97f03-dd53-4c97-816d-f10efe563144
+[Network Analyzer (4cc4: 688)]   (Sid: 31) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4: 688)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/42f97f03-dd53-4c97-816d-f10efe563144"   
+[Network Analyzer (4cc4: 688)]   (Sid: 31) Client -> Server @ : 464 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 31) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4: 688)]   (Sid: 31) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: 688)] Sent 20 bytes to client @ 192.168.56.1:64013
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64015
+[Proxy Recording  (4cc4:4750)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=28.082&seg=23&t=1747798130545
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/f666bf24-5048-4950-84e6-e94180f0eee6 ...
+[Proxy Recording.Error (4cc4:3798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/f666bf24-5048-4950-84e6-e94180f0eee6 ...
+[Proxy Recording  (4cc4:4750)] Sent 5615333 bytes to client @ 192.168.56.1:64009
+[Proxy Recording  (4cc4:3798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/f666bf24-5048-4950-84e6-e94180f0eee6
+[Network Analyzer (4cc4:3798)]   (Sid: 32) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:3798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/f666bf24-5048-4950-84e6-e94180f0eee6"   
+[Network Analyzer (4cc4:3798)]   (Sid: 32) Client -> Server @ : 486 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 32) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 32) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 20 bytes to client @ 192.168.56.1:64015
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64017
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/0686cf7e-d9e9-4785-b07e-153092b2b81b ...
+[Proxy Recording.Error (4cc4:43a0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/0686cf7e-d9e9-4785-b07e-153092b2b81b ...
+[Proxy Recording  (4cc4:43a0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/0686cf7e-d9e9-4785-b07e-153092b2b81b
+[Network Analyzer (4cc4:43a0)]   (Sid: 33) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:43a0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/0686cf7e-d9e9-4785-b07e-153092b2b81b"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 33) Client -> Server @ : 2551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 33) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 33) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 20 bytes to client @ 192.168.56.1:64017
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64019
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/63082383-e4a8-4523-aad4-6b06170f13da ...
+[Proxy Recording.Error (4cc4:1964)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/63082383-e4a8-4523-aad4-6b06170f13da ...
+[Proxy Recording  (4cc4:1964)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/63082383-e4a8-4523-aad4-6b06170f13da
+[Network Analyzer (4cc4:1964)]   (Sid: 34) Client -> Server @ : 636 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:1964)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/63082383-e4a8-4523-aad4-6b06170f13da"   
+[Network Analyzer (4cc4:1964)]   (Sid: 34) Client -> Server @ : 1192 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 34) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 34) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Sent 20 bytes to client @ 192.168.56.1:64019
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64021
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/4065ff78-4e46-4c05-b918-f6ea49ebf21d ...
+[Proxy Recording.Error (4cc4:2538)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/4065ff78-4e46-4c05-b918-f6ea49ebf21d ...
+[Proxy Recording  (4cc4:2538)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/4065ff78-4e46-4c05-b918-f6ea49ebf21d
+[Network Analyzer (4cc4:2538)]   (Sid: 35) Client -> Server @ : 642 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:2538)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/4065ff78-4e46-4c05-b918-f6ea49ebf21d"   
+[Network Analyzer (4cc4:2538)]   (Sid: 35) Client -> Server @ : 294 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 35) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 35) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:2538)] Sent 20 bytes to client @ 192.168.56.1:64021
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64023
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.956&seg=24&t=1747798132565 ...
+[Proxy Recording.Error (4cc4:332c)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.956&seg=24&t=1747798132565 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64025
+[Proxy Recording  (4cc4:332c)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.956&seg=24&t=1747798132565
+[Proxy Recording  (4cc4:332c)] Sent 5615333 bytes to client @ 192.168.56.1:64023
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64026
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:4720)] Received response of 591 header and 386 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:4720)] Sent 386 bytes to client @ 192.168.56.1:64025
+[Web Request      (4cc4: b80)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4: b80)]   (Sid: 36) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid: 36) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64031
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.963&seg=25&t=1747798136522 ...
+[Proxy Recording.Error (4cc4:56f8)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.963&seg=25&t=1747798136522 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64033
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64034
+[Proxy Recording  (4cc4:56f8)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.963&seg=25&t=1747798136522
+[Proxy Recording  (4cc4:56f8)] Sent 5615333 bytes to client @ 192.168.56.1:64031
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4: 688)] Received response of 421 header and 45 body bytes from https://android.clients.google.com:443/c2dm/register3
+[Proxy Recording  (4cc4: 688)] Sent 45 bytes to client @ 192.168.56.1:64033
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:2538)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64040
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:43a0)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64044
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4: b80)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64048
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4: dd4)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64052
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:56f8)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64056
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:2538)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64060
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:4720)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64064
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4: b80)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64068
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:3798)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64072
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (4cc4:56f8)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64076
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (4cc4:2538)] Received response of 1882 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (4cc4:2538)]   (Sid: 37) Client -> Server @ : 618 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:2538)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (4cc4:2538)]   (Sid: 37) Client -> Server @ : 421 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 37) Server -> Client : 1897 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:2538)] Sent 0 bytes to client @ 192.168.56.1:64076
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64078
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64079
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64080
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64081
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4cc4:4720)] Received response of 298 header and 184 body bytes from https://dev-boomq.pflb.ru:443/config.json
+[Web Request      (4cc4:4720)] "GET https://dev-boomq.pflb.ru/config.json"   
+[Network Analyzer (4cc4:4720)]   (Sid: 38) Client -> Server @ : 1868 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Received response of 478 header and 4680 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Proxy Recording  (4cc4:3798)] Received response of 262 header and 4045 body bytes from https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[Network Analyzer (4cc4:4720)]   (Sid: 38) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:4720)]   (Sid: 38) Server -> Client : 184 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4720)] Sent 184 bytes to client @ 192.168.56.1:64078
+[Proxy Recording  (4cc4:4750)] Received response of 515 header and 150 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Web Request      (4cc4:3798)] "GET https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"   
+[Network Analyzer (4cc4:3798)]   (Sid: 39) Client -> Server @ : 1273 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 39) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 39) Server -> Client : 4045 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 4045 bytes to client @ 192.168.56.1:64081
+[Web Request      (4cc4:1964)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (4cc4:1964)]   (Sid: 40) Client -> Server @ : 1880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 40) Server -> Client : 465 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:1964)]   (Sid: 40) Server -> Client : 4680 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:1964)] Sent 4680 bytes to client @ 192.168.56.1:64079
+[Web Request      (4cc4:4750)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (4cc4:4750)]   (Sid: 41) Client -> Server @ : 1870 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid: 41) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:4750)]   (Sid: 41) Server -> Client : 150 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4750)] Sent 150 bytes to client @ 192.168.56.1:64080
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64086
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (4cc4:43a0)] Received response of 515 header and 22 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      (4cc4:43a0)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 42) Client -> Server @ : 1882 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 42) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 42) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 22 bytes to client @ 192.168.56.1:64086
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64088
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (4cc4: b80)] Received response of 515 header and 332 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team?size=2
+[Web Request      (4cc4: b80)] "GET https://dev-boomq.pflb.ru/auth-srv/team?size=2"   
+[Network Analyzer (4cc4: b80)]   (Sid: 43) Client -> Server @ : 1877 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid: 43) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid: 43) Server -> Client : 332 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Sent 332 bytes to client @ 192.168.56.1:64088
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64090
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (4cc4:332c)] Received response of 2875 header and 217 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25
+[Web Request      (4cc4:332c)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25"   
+[Network Analyzer (4cc4:332c)]   (Sid: 44) Client -> Server @ : 1898 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 44) Server -> Client : 2862 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 44) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:332c)] Sent 217 bytes to client @ 192.168.56.1:64090
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64092
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64094
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4cc4:3798)] Received response of 410 header and 251 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (4cc4:3798)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (4cc4:3798)]   (Sid: 45) Client -> Server @ : 2356 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 45) Server -> Client : 397 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 45) Server -> Client : 251 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 251 bytes to client @ 192.168.56.1:64092
+[Proxy Recording  (4cc4:5450)] Received response of 515 header and 150 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Network Analyzer (4cc4:5450)]   (Sid: 46) Client -> Server @ : 2417 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:5450)] "PUT https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (4cc4:5450)]   (Sid: 46) Client -> Server @ : 86 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:5450)]   (Sid: 46) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:5450)]   (Sid: 46) Server -> Client : 150 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:5450)] Sent 150 bytes to client @ 192.168.56.1:64094
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64096
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/25 ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/25 ...
+[Proxy Recording  (4cc4:43a0)] Received response of 515 header and 209 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team/25
+[Web Request      (4cc4:43a0)] "GET https://dev-boomq.pflb.ru/auth-srv/team/25"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 47) Client -> Server @ : 2333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 47) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 47) Server -> Client : 209 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 209 bytes to client @ 192.168.56.1:64096
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64098
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=30&seg=26&t=1747798140371 ...
+[Proxy Recording.Error (4cc4: 688)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=30&seg=26&t=1747798140371 ...
+[Proxy Recording  (4cc4: 688)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=30&seg=26&t=1747798140371
+[Proxy Recording  (4cc4: 688)] Sent 5615333 bytes to client @ 192.168.56.1:64098
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64100
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4cc4:332c)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4:332c)]   (Sid: 48) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:332c)]   (Sid: 48) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64103
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.742&seg=27&t=1747798144756 ...
+[Proxy Recording.Error (4cc4:4750)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.742&seg=27&t=1747798144756 ...
+[Proxy Recording  (4cc4:4750)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.742&seg=27&t=1747798144756
+[Proxy Recording  (4cc4:4750)] Sent 5615333 bytes to client @ 192.168.56.1:64103
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64105
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.756&seg=28&t=1747798148718 ...
+[Proxy Recording.Error (4cc4:2538)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.756&seg=28&t=1747798148718 ...
+[Proxy Recording  (4cc4:2538)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.756&seg=28&t=1747798148718
+[Proxy Recording  (4cc4:2538)] Sent 5615333 bytes to client @ 192.168.56.1:64105
+[User action                 ] StartTransactionEvent start [Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64107
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64108
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml ...
+[Proxy Recording  (4cc4:43a0)] Received response of 406 header and 42 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml
+[Web Request      (4cc4:43a0)] "GET https://aus5.mozilla.org/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 49) Client -> Server @ : 480 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 49) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 49) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 42 bytes to client @ 192.168.56.1:64107
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64110
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.758&seg=29&t=1747798152755 ...
+[Proxy Recording.Error (4cc4:56f8)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.758&seg=29&t=1747798152755 ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://normandy.cdn.mozilla.net:443/api/v1/ ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://normandy.cdn.mozilla.net:443/api/v1/ ...
+[Proxy Recording  (4cc4: b80)] Received response of 354 header and 0 body bytes from https://normandy.cdn.mozilla.net:443/api/v1/
+[Web Request      (4cc4: b80)] "GET https://normandy.cdn.mozilla.net/api/v1/"   
+[Network Analyzer (4cc4: b80)]   (Sid: 50) Client -> Server @ : 441 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4: b80)]   (Sid: 50) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64108
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64114
+[Proxy Recording  (4cc4:56f8)] Received response of 1039 header and 5615333 body bytes from https://strm-m9-18.strm.yandex.net:443/music-v2/crypt/ysign1=bee4a416f82190b1caca60b9c60a051164638bf18bfeef1635a3c580ea707ff1,kts=682e9fb0,lid=1562,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=107&bufSize=29.758&seg=29&t=1747798152755
+[Proxy Recording  (4cc4:56f8)] Sent 5615333 bytes to client @ 192.168.56.1:64110
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://classify-client.services.mozilla.com:443/api/v1/classify_client/ ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://classify-client.services.mozilla.com:443/api/v1/classify_client/ ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64117
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64118
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:5450)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting
+[Proxy Recording  (4cc4:1060)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:5450)] Sent 0 bytes to client @ 192.168.56.1:64117
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:64118
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64121
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:43a0)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64123
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64124
+[Proxy Recording  (4cc4:43a0)] Sent 0 bytes to client @ 192.168.56.1:64121
+[Proxy Recording  (4cc4:3798)] Received response of 288 header and 64 body bytes from https://classify-client.services.mozilla.com:443/api/v1/classify_client/
+[Web Request      (4cc4:3798)] "GET https://classify-client.services.mozilla.com/api/v1/classify_client/"   
+[Network Analyzer (4cc4:3798)]   (Sid: 51) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 51) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 51) Server -> Client : 64 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 64 bytes to client @ 192.168.56.1:64114
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64125
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64126
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64127
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64128
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64129
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64136
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4: dd4)] Received response of 572 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4: 688)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0 ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0 ...
+[Proxy Recording  (4cc4: dd4)] Sent 0 bytes to client @ 192.168.56.1:64125
+[Proxy Recording  (4cc4:4720)] Received response of 572 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64141
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64142
+[Proxy Recording  (4cc4: 688)] Sent 0 bytes to client @ 192.168.56.1:64127
+[Proxy Recording  (4cc4:43a0)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64145
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64146
+[Proxy Recording  (4cc4: b80)] Received response of 1430 header and 20 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4:4720)] Sent 0 bytes to client @ 192.168.56.1:64126
+[Proxy Recording  (4cc4:4750)] Received response of 572 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64149
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64150
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE ...
+[Proxy Recording  (4cc4:43a0)] Sent 0 bytes to client @ 192.168.56.1:64129
+[Proxy Recording  (4cc4:1964)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64153
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError ...
+[Proxy Recording  (4cc4: b80)] Sent 20 bytes to client @ 192.168.56.1:64123
+[Proxy Recording  (4cc4:3798)] Received response of 1419 header and 20 body bytes from https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64155
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:4750)] Sent 0 bytes to client @ 192.168.56.1:64124
+[Proxy Recording  (4cc4:332c)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64157
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:64128
+[Proxy Recording  (4cc4:56f8)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64159
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z ...
+[Proxy Recording  (4cc4:3798)] Sent 20 bytes to client @ 192.168.56.1:64136
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64161
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:332c)] Sent 0 bytes to client @ 192.168.56.1:64146
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4:1060)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0 ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0 ...
+[Proxy Recording  (4cc4:56f8)] Sent 0 bytes to client @ 192.168.56.1:64142
+[Proxy Recording  (4cc4:5680)] Received response of 572 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError
+[Proxy Recording  (4cc4: 688)] Received response of 1075 header and 24 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A14.419Z
+[Proxy Recording  (4cc4:5450)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=YASP_MSE_FAILED_TO_EXECUTE_PROCEDURE
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:64141
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64163
+[Proxy Recording  (4cc4:2538)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:4720)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd
+[Proxy Recording  (4cc4:5680)] Sent 0 bytes to client @ 192.168.56.1:64150
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed ...
+[Proxy Recording  (4cc4: dd4)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyCalled
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled ...
+[Proxy Recording  (4cc4:1964)] Received response of 981 header and 504 body bytes from https://api.music.yandex.ru:443/get-file-info?ts=1747798154&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=8hebftc4l1qNsaZpZiCinkaVPFomlw3Iql9rsB6e%2Fq0
+[Proxy Recording  (4cc4: 688)] Sent 24 bytes to client @ 192.168.56.1:64155
+[Proxy Recording  (4cc4:332c)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDestroyed
+[Proxy Recording  (4cc4: b80)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleaseSrcOnErrorCalled
+[Proxy Recording  (4cc4:5450)] Sent 0 bytes to client @ 192.168.56.1:64145
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64165
+[Proxy Recording  (4cc4:2538)] Sent 0 bytes to client @ 192.168.56.1:64149
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64167
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError ...
+[Proxy Recording  (4cc4:4750)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcOnError
+[Proxy Recording  (4cc4:4720)] Sent 0 bytes to client @ 192.168.56.1:64157
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached ...
+[Proxy Recording  (4cc4:5680)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceDetached
+[Proxy Recording  (4cc4: dd4)] Sent 0 bytes to client @ 192.168.56.1:64153
+[Proxy Recording  (4cc4:1964)] Sent 504 bytes to client @ 192.168.56.1:64161
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64169
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64170
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64171
+[Proxy Recording  (4cc4:332c)] Sent 0 bytes to client @ 192.168.56.1:64163
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64173
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64159
+[Proxy Recording  (4cc4:43a0)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive
+[Proxy Recording  (4cc4:4750)] Sent 0 bytes to client @ 192.168.56.1:64165
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64174
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64175
+[Proxy Recording  (4cc4:5680)] Sent 0 bytes to client @ 192.168.56.1:64167
+[Proxy Recording  (4cc4:43a0)] Sent 0 bytes to client @ 192.168.56.1:64169
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64176
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64177
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource ...
+[Proxy Recording  (4cc4: 688)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108 ...
+[Proxy Recording.Error (4cc4:56f8)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108 ...
+[Proxy Recording  (4cc4:1060)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource
+[Proxy Recording  (4cc4: 688)] Sent 0 bytes to client @ 192.168.56.1:64171
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:64173
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:332c)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:332c)] Sent 0 bytes to client @ 192.168.56.1:64175
+[Proxy Recording  (4cc4:56f8)] Received response of 1041 header and 5615333 body bytes from https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108
+[Proxy Recording  (4cc4:56f8)] Sent 5615333 bytes to client @ 192.168.56.1:64170
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64183
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108 ...
+[Proxy Recording.Error (4cc4:5450)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108 ...
+[Proxy Recording  (4cc4:5450)] Received response of 1041 header and 5615333 body bytes from https://strm-mar-105.strm.yandex.net:443/music-v2/crypt/ysign1=d61087e129ec5b647d8ed6d3b1ded1666bcdf7549fabc1b4a0922f28b3edbb2b,kts=682e9fb0,lid=1520,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=108
+[Proxy Recording  (4cc4:5450)] Sent 5615333 bytes to client @ 192.168.56.1:64183
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64185
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64189
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64191
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64194
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64195
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4: b80)] Received response of 332 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached ...
+[Proxy Recording  (4cc4:3798)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z ...
+[Proxy Recording  (4cc4: 688)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4:5680)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:2538)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64176
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64198
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE ...
+[Proxy Recording  (4cc4: 688)] Received response of 1430 header and 20 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE ...
+[Proxy Recording  (4cc4:4750)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:43a0)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting
+[Proxy Recording  (4cc4:3798)] Sent 0 bytes to client @ 192.168.56.1:64174
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen ...
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen ...
+[Proxy Recording  (4cc4:1964)] Received response of 1415 header and 20 body bytes from https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE
+[Proxy Recording  (4cc4:5680)] Sent 0 bytes to client @ 192.168.56.1:64189
+[Proxy Recording  (4cc4: dd4)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen
+[Proxy Recording  (4cc4:2538)] Sent 0 bytes to client @ 192.168.56.1:64177
+[Proxy Recording  (4cc4: 688)] Sent 20 bytes to client @ 192.168.56.1:64185
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64200
+[Proxy Recording  (4cc4:4750)] Sent 0 bytes to client @ 192.168.56.1:64195
+[Proxy Recording  (4cc4:43a0)] Sent 0 bytes to client @ 192.168.56.1:64194
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z ...
+[Proxy Recording  (4cc4:1964)] Sent 20 bytes to client @ 192.168.56.1:64191
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64202
+[Proxy Recording  (4cc4: dd4)] Sent 0 bytes to client @ 192.168.56.1:64198
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE ...
+[Proxy Recording  (4cc4:4720)] Received response of 1075 header and 24 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.071Z
+[Proxy Recording  (4cc4:4720)] Sent 24 bytes to client @ 192.168.56.1:64200
+[Proxy Recording  (4cc4:5680)] Received response of 981 header and 507 body bytes from https://api.music.yandex.ru:443/get-file-info?ts=1747798157&trackId=124871096&quality=nq&codecs=flac%2Caac%2Che-aac%2Cmp3%2Cflac-mp4%2Caac-mp4%2Che-aac-mp4&transports=encraw&sign=poUWLbJ3mwliIBCHyrTkwIhCtQLYKx%2FEcRIJfILh%2BHE
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64204
+[Proxy Recording  (4cc4:5680)] Sent 507 bytes to client @ 192.168.56.1:64202
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64206
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64207
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64208
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64209
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64210
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64211
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64212
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64214
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource ...
+[Proxy Recording  (4cc4: b80)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource ...
+[Proxy Recording  (4cc4:332c)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=SetSource
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64204
+[Proxy Recording  (4cc4:332c)] Sent 0 bytes to client @ 192.168.56.1:64206
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64215
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64216
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDetached ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDetached ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY ...
+[Proxy Recording  (4cc4:4720)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDetached
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd ...
+[Proxy Recording  (4cc4:4750)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=StalledEnd
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyCalled ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyed ...
+[Proxy Recording  (4cc4:4720)] Sent 0 bytes to client @ 192.168.56.1:64210
+[Proxy Recording  (4cc4:1964)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyCalled
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64226
+[Proxy Recording  (4cc4:1060)] Received response of 1434 header and 20 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z
+[Proxy Recording  (4cc4:3798)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=StalledEnd
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyed ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109 ...
+[Proxy Recording.Error (4cc4:43a0)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109 ...
+[Proxy Recording  (4cc4:4750)] Sent 0 bytes to client @ 192.168.56.1:64214
+[Proxy Recording  (4cc4:5680)] Received response of 573 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY
+[Proxy Recording  (4cc4:5450)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=DETACHED_YaspSourceDestroyed
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:64208
+[Proxy Recording  (4cc4:2538)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=SetSource&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:1060)] Sent 20 bytes to client @ 192.168.56.1:64211
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64229
+[Proxy Recording  (4cc4:3798)] Sent 0 bytes to client @ 192.168.56.1:64216
+[Proxy Recording  (4cc4:5680)] Sent 0 bytes to client @ 192.168.56.1:64212
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64231
+[Proxy Recording  (4cc4:5450)] Sent 0 bytes to client @ 192.168.56.1:64209
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z ...
+[Proxy Recording  (4cc4:2538)] Sent 0 bytes to client @ 192.168.56.1:64226
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z ...
+[Proxy Recording  (4cc4:56f8)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_PLAYER_PLAY
+[Proxy Recording  (4cc4:56f8)] Sent 0 bytes to client @ 192.168.56.1:64231
+[Proxy Recording  (4cc4:4720)] Received response of 1075 header and 24 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A17.364Z
+[Proxy Recording  (4cc4:4720)] Sent 24 bytes to client @ 192.168.56.1:64229
+[Proxy Recording  (4cc4:43a0)] Received response of 1045 header and 5615333 body bytes from https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109
+[Proxy Recording  (4cc4:43a0)] Sent 5615333 bytes to client @ 192.168.56.1:64207
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64233
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109 ...
+[Proxy Recording.Error (4cc4:5680)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109 ...
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcAutomatically ...
+[Proxy Recording  (4cc4: dd4)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcAutomatically ...
+[Proxy Recording  (4cc4: dd4)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspReleasedSrcAutomatically
+[Proxy Recording  (4cc4: dd4)] Sent 0 bytes to client @ 192.168.56.1:64215
+[Proxy Recording  (4cc4:5680)] Received response of 1045 header and 5615333 body bytes from https://strm-spbmiran-05.strm.yandex.net:443/music-v2/crypt/ysign1=21649d2eb771e66e4498de6b135af768e8e514006bddd8e23e6e0a7095d92833,kts=682e9fb0,lid=1523,pfx,secret_version=ver-1,sfx,source=mds,ts=683a7d30/0/22985/cb133a0f.181984650.19.124871096/aac192-mp4?container=mp4&codec=mp4a.40.2&vsid=gzoxvwhjds7j6fgamhiomm6ochg0mk6x381nt57g7b9pxMWEx0001x1747743108&source_index=109
+[Proxy Recording  (4cc4:5680)] Sent 5615333 bytes to client @ 192.168.56.1:64233
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64235
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64236
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64237
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64238
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64240
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64241
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64242
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4: b80)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached ...
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen ...
+[Proxy Recording  (4cc4: b80)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=MediaElementError
+[Proxy Recording  (4cc4:3798)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached ...
+[Proxy Recording  (4cc4:56f8)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&error=E_MEDIA_ELEMENT_ERROR
+[Proxy Recording  (4cc4:43a0)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z ...
+[Proxy Recording  (4cc4:3798)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceAttached
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4: b80)] Sent 0 bytes to client @ 192.168.56.1:64236
+[Proxy Recording  (4cc4:43a0)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=Waiting
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen ...
+[Proxy Recording  (4cc4:1964)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:56f8)] Sent 0 bytes to client @ 192.168.56.1:64237
+[Proxy Recording  (4cc4:5450)] Received response of 1433 header and 20 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z
+[Proxy Recording  (4cc4:1060)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=YaspSourceOpen
+[Proxy Recording  (4cc4:3798)] Sent 0 bytes to client @ 192.168.56.1:64238
+[Proxy Recording  (4cc4:43a0)] Sent 0 bytes to client @ 192.168.56.1:64240
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:64241
+[Proxy Recording  (4cc4:5450)] Sent 20 bytes to client @ 192.168.56.1:64235
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64249
+[Proxy Recording  (4cc4:1060)] Sent 0 bytes to client @ 192.168.56.1:64242
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z ...
+[Proxy Recording  (4cc4:5680)] Received response of 1075 header and 24 body bytes from https://api.music.yandex.ru:443/plays?clientNow=2025-05-21T03%3A29%3A19.168Z
+[Proxy Recording  (4cc4:5680)] Sent 24 bytes to client @ 192.168.56.1:64249
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64251
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64252
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:4720)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:4720)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:4720)] Sent 0 bytes to client @ 192.168.56.1:64252
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5395&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=w587fngy1vx4&t=1 ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5395&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=w587fngy1vx4&t=1 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64256
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:1964)] Received response of 333 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:1964)] Sent 0 bytes to client @ 192.168.56.1:64256
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64258
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64259
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4cc4:1060)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4:1060)]   (Sid: 52) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:1060)]   (Sid: 52) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64262
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64263
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:4750)] Trying to connect to https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled ...
+[Proxy Recording  (4cc4:4750)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?reason=Other&WebMusic=1.0.0&event=Stalled
+[Proxy Recording  (4cc4:4750)] Sent 0 bytes to client @ 192.168.56.1:64263
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://easylist-downloads.adblockplus.org:443/ab-testing/experiments.json ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to https://easylist-downloads.adblockplus.org:443/ab-testing/experiments.json ...
+[Proxy Recording  (4cc4:56f8)] Received response of 443 header and 1123 body bytes from https://easylist-downloads.adblockplus.org:443/ab-testing/experiments.json
+[Proxy Recording  (4cc4:56f8)] Sent 1123 bytes to client @ 192.168.56.1:64262
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64267
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1964)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1964)] Received response of 591 header and 383 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:1964)] Sent 383 bytes to client @ 192.168.56.1:64267
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64269
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4:2538)] Received response of 421 header and 45 body bytes from https://android.clients.google.com:443/c2dm/register3
+[Proxy Recording  (4cc4:2538)] Sent 45 bytes to client @ 192.168.56.1:64269
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64273
+[Proxy Recording  (4cc4:3798)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4cc4:3798)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4cc4:3798)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (4cc4:3798)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4cc4:3798)]   (Sid: 53) Client -> Server @ : 331 bytes (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 53) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:3798)]   (Sid: 53) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:3798)] Sent 90 bytes to client @ 192.168.56.1:64273
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64274
+[Proxy Recording  (4cc4:43a0)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64275
+[Proxy Recording  (4cc4:43a0)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:56f8)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4cc4:43a0)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Proxy Recording  (4cc4:56f8)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (4cc4:43a0)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4cc4:43a0)]   (Sid: 54) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 54) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:43a0)]   (Sid: 54) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:43a0)] Sent 8 bytes to client @ 192.168.56.1:64274
+[Web Request      (4cc4:56f8)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (4cc4:56f8)]   (Sid: 55) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4cc4:56f8)]   (Sid: 55) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4cc4:56f8)]   (Sid: 55) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4cc4:56f8)] Sent 8 bytes to client @ 192.168.56.1:64275
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64276
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1060)] Received response of 591 header and 337 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:1060)] Sent 337 bytes to client @ 192.168.56.1:64276
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64278
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64281
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64282
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64283
+[Web Request      (4cc4:2538)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4:2538)]   (Sid: 56) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:2538)]   (Sid: 56) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:4a18)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5441&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=6l8sbvntsybg&t=2 ...
+[Proxy Recording  (4cc4:4a18)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:1060)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5441&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=6l8sbvntsybg&t=2 ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=s5ihnek39x8h ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=s5ihnek39x8h ...
+[Proxy Recording  (4cc4:4a18)] Received response of 591 header and 337 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:4a18)] Sent 337 bytes to client @ 192.168.56.1:64283
+[Proxy Recording  (4cc4:5680)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=s5ihnek39x8h
+[Proxy Recording  (4cc4:5680)] Sent 43 bytes to client @ 192.168.56.1:64281
+[Proxy Recording  (4cc4:332c)] Received response of 2278 header and 57 body bytes from https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5395&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=w587fngy1vx4&t=1
+[Proxy Recording.Error (4cc4:332c)] Exception is caught while sending data to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5395&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=w587fngy1vx4&t=1, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64289
+[Proxy Recording  (4cc4:4a18)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4:4a18)] Trying to connect to https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive ...
+[Proxy Recording  (4cc4:4a18)] Received response of 334 header and 0 body bytes from https://log.strm.yandex.ru:443/log?WebMusic=1.0.0&event=PlayerAlive
+[Proxy Recording  (4cc4:4a18)] Sent 0 bytes to client @ 192.168.56.1:64289
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64291
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:2538)] Received response of 591 header and 337 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:2538)] Sent 337 bytes to client @ 192.168.56.1:64291
+[Proxy Recording  (4cc4:5450)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64293
+[Proxy Recording  (4cc4:109c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=3pe1rjksemb0 ...
+[Proxy Recording  (4cc4:109c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=3pe1rjksemb0 ...
+[Proxy Recording  (4cc4:109c)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=3pe1rjksemb0
+[Proxy Recording  (4cc4:109c)] Sent 43 bytes to client @ 192.168.56.1:64293
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64295
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:5680)] Received response of 591 header and 337 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:5680)] Sent 337 bytes to client @ 192.168.56.1:64295
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64299
+[Proxy Recording  (4cc4:109c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=ig1ekedajcc1 ...
+[Proxy Recording  (4cc4:109c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=ig1ekedajcc1 ...
+[Proxy Recording  (4cc4:109c)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=ig1ekedajcc1
+[Proxy Recording  (4cc4:109c)] Sent 43 bytes to client @ 192.168.56.1:64299
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64301
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:5680)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:5680)] Received response of 591 header and 337 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:5680)] Sent 337 bytes to client @ 192.168.56.1:64301
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64303
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5502&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=3fn36lw4d6ms&t=3 ...
+[Proxy Recording  (4cc4:332c)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5502&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=3fn36lw4d6ms&t=3 ...
+[Proxy Recording  (4cc4:1060)] Received response of 2278 header and 68 body bytes from https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5441&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=6l8sbvntsybg&t=2
+[Proxy Recording.Error (4cc4:1060)] Exception is caught while sending data to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5441&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=6l8sbvntsybg&t=2, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64305
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://android.clients.google.com:443/c2dm/register3 ...
+[Proxy Recording  (4cc4:5450)] Received response of 421 header and 45 body bytes from https://android.clients.google.com:443/c2dm/register3
+[Proxy Recording  (4cc4:5450)] Sent 45 bytes to client @ 192.168.56.1:64305
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64307
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:2538)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D ...
+[Proxy Recording  (4cc4:2538)] Received response of 591 header and 413 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=i2E87roM8Pe4k76eoMKphg%3D%3D
+[Proxy Recording  (4cc4:2538)] Sent 413 bytes to client @ 192.168.56.1:64307
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64309
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64310
+[Proxy Recording  (4cc4:4a18)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4cc4:4a18)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4cc4:4a18)]   (Sid: 57) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:4a18)]   (Sid: 57) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64313
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5rcr2oq0nnvy ...
+[Proxy Recording  (4cc4:5450)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5rcr2oq0nnvy ...
+[Proxy Recording  (4cc4:5450)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5rcr2oq0nnvy
+[Proxy Recording  (4cc4:5450)] Sent 43 bytes to client @ 192.168.56.1:64313
+[User action                 ] EndTransactionEvent start [User action                 ] StartTransactionEvent add_test [Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64317
+[Proxy Recording  (4cc4:5418)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5lmecxqdwsf9 ...
+[Proxy Recording  (4cc4:5418)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5lmecxqdwsf9 ...
+[Proxy Recording  (4cc4:5418)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=5lmecxqdwsf9
+[Proxy Recording  (4cc4:5418)] Sent 43 bytes to client @ 192.168.56.1:64317
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64319
+[Proxy Recording  (4cc4:5418)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64320
+[Proxy Recording  (4cc4:5418)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64321
+[Proxy Recording  (4cc4:5418)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:5680)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64322
+[Proxy Recording  (4cc4:5418)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=iwfwrgfxiif ...
+[Proxy Recording  (4cc4:5418)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=iwfwrgfxiif ...
+[Proxy Recording  (4cc4:5418)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=iwfwrgfxiif
+[Proxy Recording  (4cc4:5418)] Sent 43 bytes to client @ 192.168.56.1:64322
+[User action                 ] EndTransactionEvent add_test [Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64326
+[User action                 ] StartTransactionEvent save [Proxy Recording  (4cc4:3b24)] Empty http command received from client's ssl connection
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64327
+[Proxy Recording  (4cc4:55dc)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=r9iapb69udob ...
+[Proxy Recording  (4cc4:55dc)] Trying to connect to https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=r9iapb69udob ...
+[Proxy Recording  (4cc4:55dc)] Received response of 740 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/netcheck.gif?zx=r9iapb69udob
+[Proxy Recording  (4cc4:55dc)] Sent 43 bytes to client @ 192.168.56.1:64327
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64329
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST ...
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST ...
+[Proxy Recording.Error (4cc4:3b24)] Failed to connect to server https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST.
+Message=ProtocolError, status=Удаленный сервер возвратил ошибку: (500) Внутренняя ошибка сервера.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (4cc4:3b24)] Received response of 320 header and 162 body bytes from https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST
+[Network Analyzer (4cc4:3b24)]   (Sid: 58) Client -> Server @ : 2481 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:3b24)] "POST https://dev-boomq.pflb.ru/testplan-srv/testInfo?testMode=TEST"   
+[Network Analyzer (4cc4:3b24)]   (Sid: 58) Client -> Server @ : 3204 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 58) Server -> Client : 307 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 58) Server -> Client : 162 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3b24)] Sent 162 bytes to client @ 192.168.56.1:64329
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64332
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project ...
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project ...
+[Proxy Recording  (4cc4:3b24)] Received response of 438 header and 516 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project
+[Network Analyzer (4cc4:3b24)]   (Sid: 59) Client -> Server @ : 2426 bytes (SSL)(Service=HTTP)
+[Web Request      (4cc4:3b24)] "POST https://dev-boomq.pflb.ru/project-srv/project"   
+[Network Analyzer (4cc4:3b24)]   (Sid: 59) Client -> Server @ : 3204 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 59) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 59) Server -> Client : 516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3b24)] Sent 516 bytes to client @ 192.168.56.1:64332
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64334
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg ...
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg ...
+[Proxy Recording  (4cc4:3b24)] Received response of 261 header and 877 body bytes from https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg
+[Web Request      (4cc4:3b24)] "GET https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg"   
+[Network Analyzer (4cc4:3b24)]   (Sid: 60) Client -> Server @ : 1276 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 60) Server -> Client : 278 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4cc4:3b24)]   (Sid: 60) Server -> Client : 877 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4cc4:3b24)] Sent 877 bytes to client @ 192.168.56.1:64334
+[Proxy Recording  (4cc4:39ec)] Client request from @ 192.168.56.1:64336
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5630&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=c5epb4yynj71&t=4 ...
+[Proxy Recording  (4cc4:3b24)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5630&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=c5epb4yynj71&t=4 ...
+[Proxy Recording  (4cc4:332c)] Received response of 2278 header and 91 body bytes from https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5502&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=3fn36lw4d6ms&t=3
+[Proxy Recording.Error (4cc4:332c)] Exception is caught while sending data to https://docs.google.com:443/spreadsheets/d/1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE/bind?id=1T2ur0H8HeSfrXZdcLf_aikA3wps3G8dVlxSsOAkT5AE&sid=148b5de444d6ada2&token=AC4w5VjXk60BxHSH_MYDZ9XJs-d6W2i51Q%3A1747792765969&includes_info_params=true&usp=sharing&cros_files=false&VER=8&lsq=1747792765600&u=01897914745943356782&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=5502&smv=137&smb=%5B137%2C%20%5D&cimpl=0&RID=rpc&SID=D141FE9305A33E69&CI=0&AID=153&TYPE=xmlhttp&zx=3fn36lw4d6ms&t=3, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[User action                 ] EndTransactionEvent save 

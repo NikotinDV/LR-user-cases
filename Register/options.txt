@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\Register
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\jdm\desktop\qap\boomq\scripts\register\\logfile.log
+c:\users\jdm\desktop\qap\boomq\scripts\register\\combined_Register.c
+c:\users\jdm\desktop\qap\boomq\scripts\register\\pre_cci.c

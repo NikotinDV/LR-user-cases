@@ -1,0 +1,246 @@
+boomqTestPlan:
+  configurationElements:
+  - type: "HTTP_COOKIE_MANAGER"
+    id: "42a38152-9bba-45f9-bb39-b829defb5530"
+    label: "Http cookie manager"
+    enabled: true
+    clearEachIteration: false
+    clearControlledByThreadGroup: false
+    cookiePolicy: "STANDARD"
+    userDefinedCookies: []
+  - type: "HTTP_HEADER_MANAGER"
+    id: "9810c07f-20f7-48de-bbf7-11d6afcc7e20"
+    label: "Http header manager"
+    enabled: true
+    headers:
+      User-Agent: "Mozilla/5.0"
+  - type: "HTTP_REQUEST_DEFAULTS"
+    id: "f0e4d2d8-73a6-444c-b263-fe7197e9f8a2"
+    label: "Http request defaults"
+    enabled: true
+    protocol: null
+    serverName: null
+    port: null
+    path: null
+    responseTimeout: 120000
+    connectTimeout: 60000
+    clientImplementation: null
+    contentEncoding: null
+    queryParameters: null
+    bodyParameters: null
+    body: null
+    proxyProperties: null
+    retrieveAllEmbeddedResources: null
+    useParallelDownloads: null
+    parallelDownloadsPoolSize: null
+    urlMustMatch: null
+    urlMustNotMatch: null
+    sourceAddress: null
+    saveResponseAsMd5Hash: null
+  urlOverwrites: null
+  threadGroups:
+  - type: "BOOMQ_STABLE_SCALABILITY"
+    id: "8b57e67b-cb2c-4ac8-9abd-9224c221a178"
+    label: "random_22"
+    typeDisplayName: ""
+    enabled: true
+    threadGroupElements:
+    - type: "CONTROLLER"
+      id: "78a6c266-ec69-412c-93df-a68ed79b50a9"
+      label: "Random_Transaction_1"
+      typeDisplayName: "Transaction Controller"
+      timerList: []
+      enabled: true
+      creationIndex: 1
+      individualProperties:
+        type: "TRANSACTION"
+        generateParentSampler: false
+        includeDurationOfAllElementsToGeneratedSampler: false
+      children:
+      - type: "SAMPLER"
+        id: "1c3148bb-97b9-405f-98c3-eb98578c4232"
+        label: "https://webtours.pflb.ru/WebTours/"
+        typeDisplayName: "HTTP Request"
+        timerList: []
+        enabled: true
+        individualProperties:
+          type: "HTTP"
+          method: "GET"
+          protocol: "https"
+          serverName: "webtours.pflb.ru"
+          port: ""
+          path: "/WebTours/"
+          connectTimeout: null
+          responseTimeout: null
+          clientImplementation: null
+          contentEncoding: null
+          queryParameters: []
+          bodyParameters: []
+          headers: {}
+          body: ""
+          automaticallyRedirect: false
+          followRedirects: true
+          useKeepAlive: true
+          browserCompatibleHeaders: false
+          doMultipartPost: false
+          filesUpload: null
+          responsePreview: null
+          proxyProperties: null
+          retrieveAllEmbeddedResources: true
+          useParallelDownloads: null
+          parallelDownloadsPoolSize: null
+          urlMustMatch: null
+          urlMustNotMatch: null
+          sourceAddress: null
+          saveResponseAsMd5Hash: null
+        assertions: []
+        extractors: []
+    boomqConfiguration:
+      resourceConfiguration:
+        testRunnerIds: null
+        cloudTestRunLocationRequirements: null
+        entTestRunLocationRequirements: null
+        memoryMb: null
+        cpuShares: null
+      pacingConfiguration: null
+      loadProfilePercent: 100
+    loadProfile: null
+  timers:
+  - timerType: "CONSTANT"
+    id: "f9284440-c58f-4025-b4ad-e1b90ba9670d"
+    typeDisplayName: null
+    label: "boomq_timer_f9284440-c58f-4025-b4ad-e1b90ba9670d"
+    enabled: true
+    durationMs: 8000
+  loadProfileType: "PER_TEST"
+  loadProfile:
+    boomqProfileType: "STABLE"
+    stepCount: 1
+    usersPerStep: 1
+    stepLengthMs: 60000
+    rampUpMs: 0
+    rampDownMs: 0
+    durationAddedOnLastStepMs: 0
+  runThreadGroupConsecutively: false
+  runTearDownAfterShutdown: true
+  functionalMode: false
+  classpath: null
+slaGroupList:
+- type: "GENERAL_TEST_SLA"
+  targetType: "TEST"
+  slaList:
+  - restrictionType: "AVERAGE"
+    fromDate: 4
+    toDate: 45
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  - restrictionType: "ERROR_RATE"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  - restrictionType: "THROUGHPUT"
+    fromDate: 2
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+- type: "THREAD_GROUP_SLA"
+  targetType: "THREAD_GROUP"
+  slaList:
+  - restrictionType: "ERROR_RATE"
+    fromDate: 10
+    toDate: 49
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  - restrictionType: "THROUGHPUT"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  threadGroupName: "random_22"
+  threadGroupId: "8b57e67b-cb2c-4ac8-9abd-9224c221a178"
+- type: "TRANSACTION_SLA"
+  targetType: "TRANSACTION"
+  slaList:
+  - restrictionType: "ERROR_RATE"
+    fromDate: 9
+    toDate: 53
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  - restrictionType: "THROUGHPUT"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  transactionName: "Random_Transaction_1"
+  transactionId: "78a6c266-ec69-412c-93df-a68ed79b50a9"
+  threadGroupName: "random_22"
+  threadGroupId: "8b57e67b-cb2c-4ac8-9abd-9224c221a178"
+- type: "REQUEST_SLA"
+  targetType: "REQUEST"
+  slaList:
+  - restrictionType: "ERROR_RATE"
+    fromDate: 6
+    toDate: 56
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  requestName: "https://webtours.pflb.ru/WebTours/"
+  transactionFilterType: "ANY_TRANSACTION"
+  transactionName: null
+  transactionId: null
+  threadGroupName: null
+  threadGroupId: null
+- type: "REQUEST_SLA"
+  targetType: "REQUEST"
+  slaList:
+  - restrictionType: "THROUGHPUT"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 5.0
+    result: null
+    status: "NOT_COUNTED"
+  requestName: "https://webtours.pflb.ru/WebTours/"
+  transactionFilterType: "ANY_TRANSACTION"
+  transactionName: null
+  transactionId: null
+  threadGroupName: "random_22"
+  threadGroupId: "8b57e67b-cb2c-4ac8-9abd-9224c221a178"
+- type: "SYSTEM_METRICS_HOST"
+  targetType: "SYSTEM_METRICS_HOST"
+  slaList:
+  - restrictionType: "MEMORY_USAGE_PERCENT_AVERAGE"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 80.0
+    result: null
+    status: "NOT_COUNTED"
+  - restrictionType: "CPU_USAGE_PERCENT_AVERAGE"
+    fromDate: 0
+    toDate: 60
+    operation: "LESS_EQUALS"
+    value: 80.0
+    result: null
+    status: "NOT_COUNTED"
+  hostname: "https://webtours.pflb.ru/WebTours/"
+resourceConfiguration: null
+supportingFiles: []
+supportingFilesV2: []
+importedJmxFileLocation: null

@@ -1,0 +1,484 @@
+[API Trapper      (3cb8:4de4)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (4b00:32c0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4b00:32c0)] Load Network Traffic Analyzers:
+[Network Analyzer (4b00:32c0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4b00:32c0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (4b00:32c0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4b00:32c0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (4b00:32c0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (4b00:32c0)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4b00:32c0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (4b00:32c0)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (4b00:32c0)] Started proxy on port 12334 listening IP 192.168.56.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54560
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54561
+[Proxy Recording  (4b00:  70)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54562
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54563
+[Proxy Recording  (4b00:  70)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4b00:  70)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54565
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54566
+[Web Request      (4b00:  70)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4b00:  70)]   (Sid:  1) Client -> Server @ : 355 bytes (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 90 bytes to client @ 192.168.56.1:54561
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54567
+[Proxy Recording  (4b00:  70)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4b00:  70)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54568
+[Proxy Recording  (4b00:4658)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54569
+[Proxy Recording  (4b00:4658)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4b00:  70)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4b00:  70)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4b00:  70)]   (Sid:  2) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 8 bytes to client @ 192.168.56.1:54567
+[Proxy Recording  (4b00:4658)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (4b00:4658)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (4b00:4658)]   (Sid:  3) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid:  3) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid:  3) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 8 bytes to client @ 192.168.56.1:54568
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54571
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54572
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54573
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54574
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54575
+[Proxy Recording  (4b00:19ac)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54576
+[Proxy Recording  (4b00:3338)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4b00:19ac)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4b00:3338)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (4b00:3338)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Proxy Recording  (4b00:19ac)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4b00:3338)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (4b00:3338)]   (Sid:  4) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid:  4) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid:  4) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 8 bytes to client @ 192.168.56.1:54576
+[Web Request      (4b00:19ac)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4b00:19ac)]   (Sid:  5) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (4b00:19ac)]   (Sid:  5) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4b00:19ac)]   (Sid:  5) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4b00:19ac)] Sent 8 bytes to client @ 192.168.56.1:54575
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54577
+[Proxy Recording.Error (4b00: d98)] Exception is caught while trying to connect to https://content-signature-2.cdn.mozilla.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4b00: d98)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4b00:3d88)] Trying to connect to https://ads.mozilla.org:443/v1/ads ...
+[Proxy Recording  (4b00:3d88)] Trying to connect to https://ads.mozilla.org:443/v1/ads ...
+[Proxy Recording  (4b00:3d88)] Received response of 210 header and 59 body bytes from https://ads.mozilla.org:443/v1/ads
+[Network Analyzer (4b00:3d88)]   (Sid:  6) Client -> Server @ : 362 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:3d88)] "POST https://ads.mozilla.org/v1/ads"   
+[Network Analyzer (4b00:3d88)]   (Sid:  6) Client -> Server @ : 204 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3d88)]   (Sid:  6) Server -> Client : 227 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3d88)]   (Sid:  6) Server -> Client : 59 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3d88)] Sent 59 bytes to client @ 192.168.56.1:54562
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/invite/aQH_k4_6f-jOR6XS51Z5VOFy8dxV8pKC8UCPJI4qjKBSvlRFyYZ-d4FgDaF3VMFIu4Om69ZeeTujd9c3ZchF21iU7g7fqdN1qQwyxDwYOH4= ...
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/invite/aQH_k4_6f-jOR6XS51Z5VOFy8dxV8pKC8UCPJI4qjKBSvlRFyYZ-d4FgDaF3VMFIu4Om69ZeeTujd9c3ZchF21iU7g7fqdN1qQwyxDwYOH4= ...
+[Proxy Recording  (4b00: 9b8)] Received response of 1429 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/invite/aQH_k4_6f-jOR6XS51Z5VOFy8dxV8pKC8UCPJI4qjKBSvlRFyYZ-d4FgDaF3VMFIu4Om69ZeeTujd9c3ZchF21iU7g7fqdN1qQwyxDwYOH4=
+[Web Request      (4b00: 9b8)] "GET https://dev-boomq.pflb.ru/auth-srv/invite/aQH_k4_6f-jOR6XS51Z5VOFy8dxV8pKC8UCPJI4qjKBSvlRFyYZ-d4FgDaF3VMFIu4Om69ZeeTujd9c3ZchF21iU7g7fqdN1qQwyxDwYOH4="   
+[Network Analyzer (4b00: 9b8)]   (Sid:  7) Client -> Server @ : 637 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid:  7) Server -> Client : 1444 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Sent 0 bytes to client @ 192.168.56.1:54563
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54583
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (4b00:4a24)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Proxy Recording  (4b00: 2f8)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Network Analyzer (4b00:4a24)]   (Sid:  8) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:4a24)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4b00:4a24)]   (Sid:  8) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid:  8) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid:  8) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4a24)] Sent 468 bytes to client @ 192.168.56.1:54566
+[Network Analyzer (4b00: 2f8)]   (Sid:  9) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00: 2f8)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4b00: 2f8)]   (Sid:  9) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid:  9) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid:  9) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 2f8)] Sent 468 bytes to client @ 192.168.56.1:54569
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54589
+[Proxy Recording  (4b00:1fc0)] Received response of 235 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (4b00:1fc0)]   (Sid: 10) Client -> Server @ : 261 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:1fc0)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (4b00:1fc0)]   (Sid: 10) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 10) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 10) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:1fc0)] Sent 468 bytes to client @ 192.168.56.1:54565
+[Proxy Recording  (4b00: 810)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4b00: 810)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4b00: 810)]   (Sid: 11) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 810)]   (Sid: 11) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1 ...
+[Proxy Recording  (4b00:  70)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1 ...
+[Proxy Recording  (4b00:  70)] Received response of 406 header and 42 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1
+[Web Request      (4b00:  70)] "GET https://aus5.mozilla.org/update/6/Firefox/138.0.4/20250517143237/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5854%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16310/default/default/update.xml?force=1"   
+[Network Analyzer (4b00:  70)]   (Sid: 12) Client -> Server @ : 512 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 12) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 12) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 42 bytes to client @ 192.168.56.1:54572
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/0fa6e8f3-ac3e-4c25-9485-39821ec98061 ...
+[Proxy Recording.Error (4b00:4658)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/0fa6e8f3-ac3e-4c25-9485-39821ec98061 ...
+[Proxy Recording  (4b00:4658)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/0fa6e8f3-ac3e-4c25-9485-39821ec98061
+[Network Analyzer (4b00:4658)]   (Sid: 13) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:4658)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/0fa6e8f3-ac3e-4c25-9485-39821ec98061"   
+[Network Analyzer (4b00:4658)]   (Sid: 13) Client -> Server @ : 1950 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 13) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 13) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 20 bytes to client @ 192.168.56.1:54573
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54596
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/change-password ...
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/change-password ...
+[Proxy Recording  (4b00: d98)] Received response of 306 header and 655 body bytes from https://dev-boomq.pflb.ru:443/change-password
+[Web Request      (4b00: d98)] "GET https://dev-boomq.pflb.ru/change-password"   
+[Network Analyzer (4b00: d98)]   (Sid: 14) Client -> Server @ : 1653 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 14) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 14) Server -> Client : 655 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: d98)] Sent 655 bytes to client @ 192.168.56.1:54583
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54600
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54601
+[Proxy Recording  (4b00:411c)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4b00:411c)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4b00:3338)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4b00:3338)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru ...
+[Proxy Recording  (4b00:3338)] Received response of 596 header and 327 body bytes from https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru
+[Proxy Recording  (4b00:411c)] Received response of 125 header and 0 body bytes from https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru
+[Web Request      (4b00:3338)] "GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"   
+[Network Analyzer (4b00:3338)]   (Sid: 15) Client -> Server @ : 454 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 15) Server -> Client : 613 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 15) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 327 bytes to client @ 192.168.56.1:54577
+[Web Request      (4b00:411c)] "GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"   
+[Network Analyzer (4b00:411c)]   (Sid: 16) Client -> Server @ : 536 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 16) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:411c)] Sent 0 bytes to client @ 192.168.56.1:54574
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (4b00: 810)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (4b00: 810)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (4b00:  70)] Received response of 292 header and 23017 body bytes from https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css
+[Web Request      (4b00:  70)] "GET https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"   
+[Network Analyzer (4b00:  70)]   (Sid: 17) Client -> Server @ : 1623 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 17) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 17) Server -> Client : 23017 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 23017 bytes to client @ 192.168.56.1:54601
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/72e24593-28e3-4ef9-94fb-931648531958 ...
+[Proxy Recording.Error (4b00:1fc0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/72e24593-28e3-4ef9-94fb-931648531958 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54608
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (4b00: 810)] Received response of 322 header and 889798 body bytes from https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js
+[Web Request      (4b00: 810)] "GET https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"   
+[Network Analyzer (4b00: 810)]   (Sid: 18) Client -> Server @ : 1592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 810)]   (Sid: 18) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 810)]   (Sid: 18) Server -> Client : 889798 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 810)] Sent 889798 bytes to client @ 192.168.56.1:54600
+[Proxy Recording  (4b00:1fc0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/72e24593-28e3-4ef9-94fb-931648531958
+[Network Analyzer (4b00:1fc0)]   (Sid: 19) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:1fc0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/72e24593-28e3-4ef9-94fb-931648531958"   
+[Network Analyzer (4b00:1fc0)]   (Sid: 19) Client -> Server @ : 2562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 19) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 19) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:1fc0)] Sent 20 bytes to client @ 192.168.56.1:54596
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54610
+[Proxy Recording  (4b00: 2f8)] Received response of 262 header and 138600 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff
+[Web Request      (4b00: 2f8)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"   
+[Network Analyzer (4b00: 2f8)]   (Sid: 20) Client -> Server @ : 1683 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid: 20) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid: 20) Server -> Client : 138600 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 2f8)] Sent 138600 bytes to client @ 192.168.56.1:54608
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/c837687f-2968-46c3-ab85-dd3d07bef554 ...
+[Proxy Recording.Error (4b00:3338)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/c837687f-2968-46c3-ab85-dd3d07bef554 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54612
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54613
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54615
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54616
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54618
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (4b00:4658)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (4b00:4658)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (4b00: 2f8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (4b00:  70)] Received response of 263 header and 8365 body bytes from https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg
+[Proxy Recording  (4b00: 9b8)] Received response of 262 header and 1861 body bytes from https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg
+[Web Request      (4b00:  70)] "GET https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"   
+[Network Analyzer (4b00:  70)]   (Sid: 21) Client -> Server @ : 1703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 21) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 21) Server -> Client : 8365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 8365 bytes to client @ 192.168.56.1:54612
+[Web Request      (4b00: 9b8)] "GET https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"   
+[Network Analyzer (4b00: 9b8)]   (Sid: 22) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4b00:4a24)] Received response of 262 header and 138516 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff
+[Network Analyzer (4b00: 9b8)]   (Sid: 22) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 22) Server -> Client : 1861 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Sent 1861 bytes to client @ 192.168.56.1:54613
+[Proxy Recording  (4b00:4658)] Received response of 262 header and 138900 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff
+[Web Request      (4b00:4a24)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"   
+[Network Analyzer (4b00:4a24)]   (Sid: 23) Client -> Server @ : 1682 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid: 23) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid: 23) Server -> Client : 138516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4a24)] Sent 138516 bytes to client @ 192.168.56.1:54615
+[Proxy Recording  (4b00: 2f8)] Received response of 262 header and 138232 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff
+[Web Request      (4b00:4658)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"   
+[Network Analyzer (4b00:4658)]   (Sid: 24) Client -> Server @ : 1680 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 24) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 24) Server -> Client : 138900 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 138900 bytes to client @ 192.168.56.1:54616
+[Web Request      (4b00: 2f8)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"   
+[Network Analyzer (4b00: 2f8)]   (Sid: 25) Client -> Server @ : 1684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid: 25) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 2f8)]   (Sid: 25) Server -> Client : 138232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 2f8)] Sent 138232 bytes to client @ 192.168.56.1:54618
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54622
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (4b00: d98)] Received response of 258 header and 1016 body bytes from https://dev-boomq.pflb.ru:443/favicon.png
+[Web Request      (4b00: d98)] "GET https://dev-boomq.pflb.ru/favicon.png"   
+[Network Analyzer (4b00: d98)]   (Sid: 26) Client -> Server @ : 1657 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4b00:3338)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/c837687f-2968-46c3-ab85-dd3d07bef554
+[Network Analyzer (4b00: d98)]   (Sid: 26) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 26) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: d98)] Sent 1016 bytes to client @ 192.168.56.1:54622
+[Network Analyzer (4b00:3338)]   (Sid: 27) Client -> Server @ : 634 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:3338)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/c837687f-2968-46c3-ab85-dd3d07bef554"   
+[Network Analyzer (4b00:3338)]   (Sid: 27) Client -> Server @ : 1357 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 27) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 27) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 20 bytes to client @ 192.168.56.1:54610
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54624
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/1f2318dd-a1db-49c8-b39a-5706a3f28769 ...
+[Proxy Recording.Error (4b00:4a24)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:4a24)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/1f2318dd-a1db-49c8-b39a-5706a3f28769 ...
+[Proxy Recording  (4b00:4a24)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/metrics/1/1f2318dd-a1db-49c8-b39a-5706a3f28769
+[Web Request      (4b00:4a24)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/1f2318dd-a1db-49c8-b39a-5706a3f28769"
+[Network Analyzer (4b00:4a24)]   (Sid: 28) Client -> Server @ : 636 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid: 28) Client -> Server @ : 48325 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid: 28) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4a24)]   (Sid: 28) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4a24)] Sent 20 bytes to client @ 192.168.56.1:54624
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54626
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ea48ab03-0989-4a04-82d2-c3a9bcd19f88 ...
+[Proxy Recording.Error (4b00:4658)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ea48ab03-0989-4a04-82d2-c3a9bcd19f88 ...
+[Proxy Recording  (4b00:4658)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ea48ab03-0989-4a04-82d2-c3a9bcd19f88
+[Network Analyzer (4b00:4658)]   (Sid: 29) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:4658)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/ea48ab03-0989-4a04-82d2-c3a9bcd19f88"   
+[Network Analyzer (4b00:4658)]   (Sid: 29) Client -> Server @ : 540 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 29) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 29) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 20 bytes to client @ 192.168.56.1:54626
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54628
+[Proxy Recording  (4b00:  70)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b9c92774-c806-4b0d-8fa2-21a6564b7668 ...
+[Proxy Recording.Error (4b00:  70)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:  70)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b9c92774-c806-4b0d-8fa2-21a6564b7668 ...
+[Proxy Recording  (4b00:  70)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b9c92774-c806-4b0d-8fa2-21a6564b7668
+[Network Analyzer (4b00:  70)]   (Sid: 30) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:  70)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/b9c92774-c806-4b0d-8fa2-21a6564b7668"   
+[Network Analyzer (4b00:  70)]   (Sid: 30) Client -> Server @ : 479 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 30) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 30) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 20 bytes to client @ 192.168.56.1:54628
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54630
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/2bdc87e7-5174-487f-ba5c-a50fda0c0c1a ...
+[Proxy Recording.Error (4b00:3338)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/2bdc87e7-5174-487f-ba5c-a50fda0c0c1a ...
+[Proxy Recording  (4b00:3338)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/nimbus-targeting-context/1/2bdc87e7-5174-487f-ba5c-a50fda0c0c1a
+[Network Analyzer (4b00:3338)]   (Sid: 31) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:3338)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/2bdc87e7-5174-487f-ba5c-a50fda0c0c1a"   
+[Network Analyzer (4b00:3338)]   (Sid: 31) Client -> Server @ : 2548 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 31) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 31) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 20 bytes to client @ 192.168.56.1:54630
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54632
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/f23af014-6487-49f6-888d-875d549b5b31 ...
+[Proxy Recording.Error (4b00:411c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/f23af014-6487-49f6-888d-875d549b5b31 ...
+[Proxy Recording  (4b00:411c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/f23af014-6487-49f6-888d-875d549b5b31
+[Network Analyzer (4b00:411c)]   (Sid: 32) Client -> Server @ : 636 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:411c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/f23af014-6487-49f6-888d-875d549b5b31"   
+[Network Analyzer (4b00:411c)]   (Sid: 32) Client -> Server @ : 1176 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 32) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 32) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:411c)] Sent 20 bytes to client @ 192.168.56.1:54632
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54634
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/f930d77d-0920-44a6-971d-05e027c7ed03 ...
+[Proxy Recording.Error (4b00:4658)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:4658)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/f930d77d-0920-44a6-971d-05e027c7ed03 ...
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54636
+[Proxy Recording  (4b00: d98)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4b00:4658)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/usage-reporting/1/f930d77d-0920-44a6-971d-05e027c7ed03
+[Network Analyzer (4b00:4658)]   (Sid: 33) Client -> Server @ : 642 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:4658)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/f930d77d-0920-44a6-971d-05e027c7ed03"   
+[Network Analyzer (4b00:4658)]   (Sid: 33) Client -> Server @ : 306 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 33) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 33) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 20 bytes to client @ 192.168.56.1:54634
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54639
+[Web Request      (4b00: d98)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4b00: d98)]   (Sid: 34) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 34) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/89289879-55e6-46b6-98ee-ffba276912c0 ...
+[Proxy Recording.Error (4b00: 9b8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/89289879-55e6-46b6-98ee-ffba276912c0 ...
+[Proxy Recording  (4b00: 9b8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/89289879-55e6-46b6-98ee-ffba276912c0
+[Network Analyzer (4b00: 9b8)]   (Sid: 35) Client -> Server @ : 644 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00: 9b8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/89289879-55e6-46b6-98ee-ffba276912c0"   
+[Network Analyzer (4b00: 9b8)]   (Sid: 35) Client -> Server @ : 1067 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 35) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 35) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Sent 20 bytes to client @ 192.168.56.1:54639
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54641
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/e2578541-d2fc-49f9-a182-b6f46b839d44 ...
+[Proxy Recording.Error (4b00:411c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/e2578541-d2fc-49f9-a182-b6f46b839d44 ...
+[Proxy Recording  (4b00:411c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/e2578541-d2fc-49f9-a182-b6f46b839d44
+[Network Analyzer (4b00:411c)]   (Sid: 36) Client -> Server @ : 644 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:411c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/e2578541-d2fc-49f9-a182-b6f46b839d44"   
+[Network Analyzer (4b00:411c)]   (Sid: 36) Client -> Server @ : 1057 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 36) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 36) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:411c)] Sent 20 bytes to client @ 192.168.56.1:54641
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54643
+[Proxy Recording  (4b00:  70)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/3ff3d708-d8f7-43fe-90a2-6db85e0a4896 ...
+[Proxy Recording.Error (4b00:  70)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:  70)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/3ff3d708-d8f7-43fe-90a2-6db85e0a4896 ...
+[Proxy Recording  (4b00:  70)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/3ff3d708-d8f7-43fe-90a2-6db85e0a4896
+[Network Analyzer (4b00:  70)]   (Sid: 37) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:  70)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/3ff3d708-d8f7-43fe-90a2-6db85e0a4896"   
+[Network Analyzer (4b00:  70)]   (Sid: 37) Client -> Server @ : 2562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 37) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 37) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 20 bytes to client @ 192.168.56.1:54643
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54645
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/6a097660-216b-49b6-9ad6-ca1ece4a8659 ...
+[Proxy Recording.Error (4b00:3338)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:3338)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/6a097660-216b-49b6-9ad6-ca1ece4a8659 ...
+[Proxy Recording  (4b00:3338)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/6a097660-216b-49b6-9ad6-ca1ece4a8659
+[Network Analyzer (4b00:3338)]   (Sid: 38) Client -> Server @ : 634 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:3338)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/6a097660-216b-49b6-9ad6-ca1ece4a8659"   
+[Network Analyzer (4b00:3338)]   (Sid: 38) Client -> Server @ : 2223 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 38) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 38) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 20 bytes to client @ 192.168.56.1:54645
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54647
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/699813ba-19bb-4f16-954a-d7b7f5b46d75 ...
+[Proxy Recording.Error (4b00: 9b8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/699813ba-19bb-4f16-954a-d7b7f5b46d75 ...
+[Proxy Recording  (4b00: 9b8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/699813ba-19bb-4f16-954a-d7b7f5b46d75
+[Network Analyzer (4b00: 9b8)]   (Sid: 39) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00: 9b8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/699813ba-19bb-4f16-954a-d7b7f5b46d75"   
+[Network Analyzer (4b00: 9b8)]   (Sid: 39) Client -> Server @ : 498 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 39) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 39) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Sent 20 bytes to client @ 192.168.56.1:54647
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54649
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/518f4488-f1fa-49d6-a76d-2cd5def29caa ...
+[Proxy Recording.Error (4b00:411c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (4b00:411c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/518f4488-f1fa-49d6-a76d-2cd5def29caa ...
+[Proxy Recording  (4b00:411c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/518f4488-f1fa-49d6-a76d-2cd5def29caa
+[Network Analyzer (4b00:411c)]   (Sid: 40) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:411c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/518f4488-f1fa-49d6-a76d-2cd5def29caa"   
+[Network Analyzer (4b00:411c)]   (Sid: 40) Client -> Server @ : 475 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 40) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:411c)]   (Sid: 40) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:411c)] Sent 20 bytes to client @ 192.168.56.1:54649
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54651
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54652
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54653
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54657
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (4b00:3338)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4b00:  70)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (4b00:3338)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (4b00: d98)] Received response of 478 header and 4680 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Proxy Recording  (4b00:  70)] Received response of 298 header and 184 body bytes from https://dev-boomq.pflb.ru:443/config.json
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (4b00: 9b8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Web Request      (4b00: d98)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (4b00: d98)]   (Sid: 41) Client -> Server @ : 2752 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Received response of 262 header and 4045 body bytes from https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[Network Analyzer (4b00: d98)]   (Sid: 41) Server -> Client : 465 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 41) Server -> Client : 4680 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: d98)] Sent 4680 bytes to client @ 192.168.56.1:54652
+[Web Request      (4b00:  70)] "GET https://dev-boomq.pflb.ru/config.json"   
+[Network Analyzer (4b00:  70)]   (Sid: 42) Client -> Server @ : 2740 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 42) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:  70)]   (Sid: 42) Server -> Client : 184 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:  70)] Sent 184 bytes to client @ 192.168.56.1:54651
+[Web Request      (4b00: 9b8)] "GET https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"   
+[Network Analyzer (4b00: 9b8)]   (Sid: 43) Client -> Server @ : 1702 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 43) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: 9b8)]   (Sid: 43) Server -> Client : 4045 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: 9b8)] Sent 4045 bytes to client @ 192.168.56.1:54657
+[Proxy Recording  (4b00:3338)] Received response of 515 header and 142 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Network Analyzer (4b00:3338)]   (Sid: 44) Client -> Server @ : 2829 bytes (SSL)(Service=HTTP)
+[Web Request      (4b00:3338)] "PUT https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (4b00:3338)]   (Sid: 44) Client -> Server @ : 24 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 44) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:3338)]   (Sid: 44) Server -> Client : 142 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:3338)] Sent 142 bytes to client @ 192.168.56.1:54653
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54659
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (4b00:1fc0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (4b00:1fc0)] Received response of 515 header and 331 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team?size=2
+[Web Request      (4b00:1fc0)] "GET https://dev-boomq.pflb.ru/auth-srv/team?size=2"   
+[Network Analyzer (4b00:1fc0)]   (Sid: 45) Client -> Server @ : 2735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 45) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:1fc0)]   (Sid: 45) Server -> Client : 331 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:1fc0)] Sent 331 bytes to client @ 192.168.56.1:54659
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54661
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (4b00: d98)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (4b00: d98)] Received response of 2813 header and 208 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25
+[Web Request      (4b00: d98)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25"   
+[Network Analyzer (4b00: d98)]   (Sid: 46) Client -> Server @ : 2756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 46) Server -> Client : 2800 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00: d98)]   (Sid: 46) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00: d98)] Sent 208 bytes to client @ 192.168.56.1:54661
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54663
+[Proxy Recording  (4b00:4658)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (4b00:4658)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (4b00:4658)] Received response of 410 header and 251 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (4b00:4658)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (4b00:4658)]   (Sid: 47) Client -> Server @ : 2754 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 47) Server -> Client : 397 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4b00:4658)]   (Sid: 47) Server -> Client : 251 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4b00:4658)] Sent 251 bytes to client @ 192.168.56.1:54663
+[Proxy Recording  (4b00: d68)] Client request from @ 192.168.56.1:54665
+[Proxy Recording  (4b00: 810)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4b00: 810)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4b00: 810)]   (Sid: 48) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4b00: 810)]   (Sid: 48) Server -> Client : 156 bytes (SSL) (Service=HTTP)

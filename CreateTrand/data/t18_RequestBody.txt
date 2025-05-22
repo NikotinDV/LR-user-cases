@@ -1,0 +1,6 @@
+"{\"projectId\":7571,\"chartProfileList\":[{\"slaTypeList\":[{\"fromDate\":8,\"restrictionType\""
+":\"AVERAGE\",\"targetType\":\"REQUEST\",\"toDate\":53,\"type\":\"REQUEST_SLA_TYPE\",\"transact"
+"ionFilterType\":\"ANY_TRANSACTION\",\"requestName\":\"https://webtours.pflb.ru/WebTours/\"},{\""
+"fromDate\":13,\"restrictionType\":\"AVERAGE\",\"targetType\":\"TRANSACTION\",\"toDate\":51,\"t"
+"ype\":\"TRANSACTION_SLA_TYPE\",\"transactionName\":\"random_transaction_666\"}]}],\"testFilter"
+"ExpressionList\":[{\"type\":\"TEST_ID_EXPRESSION\",\"testIdList\":[9145,9144]}]}"

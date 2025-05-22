@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_selection.json
+URL1=https://arc.msn.com/v4/api/selection?placement=88000360&nct=1&fmt=json&ADEFAB=0&OPSYS=WIN10&locale=ru&country=RU&edgeid=57328830060768469&ACHANNEL=4&ABUILD=136.0.7103.113&poptin=0&devosver=10.0.26100.4061&clr=esdk&UITHEME=dark&EPCON=0&AMAJOR=136&AMINOR=0&ABLD=7103&APATCH=113
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

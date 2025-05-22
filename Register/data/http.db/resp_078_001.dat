@@ -1,0 +1,1 @@
+{"timestamp":"2025-05-19T23:13:17.133+0000","status":409,"error":"Conflict","message":"User is disabled","path":"/auth-srv/login"}

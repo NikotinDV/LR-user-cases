@@ -1,0 +1,106 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: authorize",
+                "infFile": "t1.inf",
+                "time": 1747771788282
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1747771788565
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: modelSchema",
+                "infFile": "t3.inf",
+                "time": 1747771788670
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: config.json",
+                "infFile": "t4.inf",
+                "time": 1747771788765
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: user",
+                "infFile": "t5.inf",
+                "time": 1747771788905
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: identityProvider",
+                "infFile": "t6.inf",
+                "time": 1747771788972
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: team",
+                "infFile": "t7.inf",
+                "time": 1747771789079
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: teamContext",
+                "infFile": "t8.inf",
+                "time": 1747771789168
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: testRunner",
+                "infFile": "t9.inf",
+                "time": 1747771789259
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: search",
+                "infFile": "t10.inf",
+                "time": 1747771789473
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: test",
+                "infFile": "t11.inf",
+                "time": 1747771789632
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: report",
+                "infFile": "t13.inf",
+                "time": 1747771789826
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: 5851",
+                "infFile": "t14.inf",
+                "time": 1747771789910
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: content",
+                "infFile": "t15.inf",
+                "time": 1747771789980
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: test_2",
+                "infFile": "t16.inf",
+                "time": 1747771790122
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_report",
+                "rawStartTime": 1747771789270,
+                "rawEndTime": 1747771790137,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019478797912597657
+            }
+        ]
+    }
+]

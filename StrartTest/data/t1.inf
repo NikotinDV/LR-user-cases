@@ -1,0 +1,13 @@
+[t1]
+FileName1=t1.htm
+URL1=https://dev-boomq.pflb.ru/
+Total=2
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t1_main.64a4c65b.css
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,6 @@
+"{\"projectId\":7571,\"chartProfileList\":[],\"tableProfileList\":[{\"slaTypeList\":[{\"fromDat"
+"e\":6,\"restrictionType\":\"AVERAGE\",\"targetType\":\"TEST\",\"toDate\":46,\"type\":\"GENERAL"
+"_SLA_TYPE\"},{\"fromDate\":4,\"restrictionType\":\"AVERAGE\",\"targetType\":\"THREAD_GROUP\",\""
+"toDate\":54,\"type\":\"THREAD_GROUP_SLA_TYPE\",\"threadGroupName\":\"random_test\"}],\"valueTy"
+"pe\":\"VALUE\"}],\"testFilterExpressionList\":[{\"type\":\"TEST_ID_EXPRESSION\",\"testIdList\""
+":[9145,9144]}]}"
