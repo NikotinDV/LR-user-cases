@@ -36,7 +36,7 @@ Default Profile=default.cfg
 [ExtraFiles]
 globals.h=
 [Modified Actions]
-vuser_init=0
+vuser_init=1
 Action=1
 vuser_end=0
 [Recorded Actions]
@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC01_T01_Login__*delimiter*__Search_Test__*delimiter*__Run_TEst"
+Order="UC01_T01_Login__*delimiter*__GLOBAL__*delimiter*__UC01_T02_searchTest__*delimiter*__UC01_T03_runTest"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,5 +60,6 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC01_T01_Login=
-Search_Test=
-Run_TEst=
+GLOBAL=
+UC01_T02_searchTest=
+UC01_T03_runTest=

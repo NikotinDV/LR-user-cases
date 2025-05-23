@@ -6,8 +6,8 @@ Total=1
 FileName1=t3.json
 RequestHeaderFile=t3_RequestHeader.txt
 ResponseHeaderFile=t3_ResponseHeader.txt
-RawStepEndTime=1747837021314
+RawStepEndTime=1747964800533
 RawStepName=team
 RequestBodyFile=t3_RequestBody.txt
-RawStepStartTime=1747837021255
+RawStepStartTime=1747964800505
 URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2

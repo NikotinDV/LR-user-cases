@@ -1,13 +1,13 @@
 [t8]
-SnapshotXmlFile=snapshot_7.xml
+SnapshotXmlFile=snapshot_5.xml
 ContentType=application/json
-StepName=Url: 8647
+StepName=Url: projectId
 Total=1
 FileName1=t8.json
 RequestHeaderFile=t8_RequestHeader.txt
 ResponseHeaderFile=t8_ResponseHeader.txt
-RawStepEndTime=1747837021652
-RawStepName=8647
+RawStepEndTime=1747964800821
+RawStepName=projectId
 RequestBodyFile=t8_RequestBody.txt
-RawStepStartTime=1747837021629
-URL1=https://dev-boomq.pflb.ru/project-srv/project/7566/version/8647
+RawStepStartTime=1747964800805
+URL1=https://dev-boomq.pflb.ru/project-srv/project/2537

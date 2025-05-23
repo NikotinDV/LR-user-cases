@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\StrartTest
+-IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\UC05_StrartTest
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\jdm\desktop\qap\boomq\scripts\strarttest\\logfile.log
-c:\users\jdm\desktop\qap\boomq\scripts\strarttest\\combined_Team_3_UC_5_Test_Run.c
-c:\users\jdm\desktop\qap\boomq\scripts\strarttest\\pre_cci.c
+-ec:\users\jdm\desktop\qap\boomq\scripts\uc05_strarttest\\logfile.log
+c:\users\jdm\desktop\qap\boomq\scripts\uc05_strarttest\\combined_Team_3_UC_5_Test_Run.c
+c:\users\jdm\desktop\qap\boomq\scripts\uc05_strarttest\\pre_cci.c

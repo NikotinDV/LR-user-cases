@@ -1,16 +1,13 @@
 [t12]
-SnapshotXmlFile=snapshot_11.xml
+SnapshotXmlFile=snapshot_9.xml
 ContentType=application/json
 StepName=Url: label_2
-Total=2
+Total=1
 FileName1=t12.json
-FileName2=t9_0_v_8647.xml
 RequestHeaderFile=t12_RequestHeader.txt
-SaveSnapshotResources=1
 ResponseHeaderFile=t12_ResponseHeader.txt
-RawStepEndTime=1747837021927
+RawStepEndTime=1747964801044
 RawStepName=label_2
 RequestBodyFile=t12_RequestBody.txt
-RawStepStartTime=1747837021896
+RawStepStartTime=1747964801026
 URL1=https://dev-boomq.pflb.ru/test-srv/test/label?query=
-URL2=https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/25/projects/7566/v_8647.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20250521/us-east-1/s3/aws4_request&X-Amz-Date=20250521T124141Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fb75c88636381b1ed849b9c0e7bbd6853982375ff8b3fb09daf579a41711c938

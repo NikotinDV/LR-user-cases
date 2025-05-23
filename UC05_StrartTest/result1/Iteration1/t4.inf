@@ -6,8 +6,8 @@ Total=1
 FileName1=t4.json
 RequestHeaderFile=t4_RequestHeader.txt
 ResponseHeaderFile=t4_ResponseHeader.txt
-RawStepEndTime=1747837021414
+RawStepEndTime=1747964800618
 RawStepName=teamContext
 RequestBodyFile=t4_RequestBody.txt
-RawStepStartTime=1747837021365
-URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25
+RawStepStartTime=1747964800569
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22
