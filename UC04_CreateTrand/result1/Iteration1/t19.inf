@@ -1,0 +1,18 @@
+[t19]
+FileName2=t1_1_main.css
+RawStepEndTime=1748048886107
+RequestBodyFile=t19_RequestBody.txt
+RawStepName=previewReport_3
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t19_ResponseHeader.txt
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t19_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1748048886058
+Total=3
+StepName=Custom Request: previewReport_3
+FileName1=t19.json
+FileName3=t1_0_main.UNK

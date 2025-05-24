@@ -108,10 +108,10 @@ Action()
                            "Mode=HTML",
                            "EncType=application/json",
                            "Body={body}",
-//                           EXTRARES,
-//                           "Url=../static/media/check.9725c0396328bae9471b624111fc14ca.svg",
-//                           "Referer=https://dev-boomq.pflb.ru/account/new-test",
-//                           ENDITEM,
+                           EXTRARES,
+                           "Url=../static/media/check.9725c0396328bae9471b624111fc14ca.svg",
+                           "Referer=https://dev-boomq.pflb.ru/account/new-test",
+                           ENDITEM,
                            LAST);
 
         lr_end_transaction("UC_03_TR_03_createTest", LR_AUTO);

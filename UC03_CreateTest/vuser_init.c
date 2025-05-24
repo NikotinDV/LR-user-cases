@@ -12,10 +12,10 @@ vuser_init()
         sprintf(projectName, "Group 3 Nik %d", randNum);
 
         randNum = rand() % 900;
-        sprintf(testRequestName, "test %d", randNum);
+        sprintf(testRequestName, "test ¹ %d", randNum);
 
         randNum = rand() % 900;
-        sprintf(transactionName, "transaction %d", randNum);
+        sprintf(transactionName, "transaction ¹ %d", randNum);
 
         lr_save_string(projectName, "projectName");
         lr_save_string(testRequestName, "testRequestName");

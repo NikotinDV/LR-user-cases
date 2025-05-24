@@ -1,4 +1,4 @@
-# 1 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c"
+# 1 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 1 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 2 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 
 # 1 "globals.h" 1
 
@@ -2595,7 +2595,7 @@ void
 
 
 
-# 3 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 3 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
@@ -2612,10 +2612,10 @@ vuser_init()
         sprintf(projectName, "Group 3 Nik %d", randNum);
 
         randNum = rand() % 900;
-        sprintf(testRequestName, "test %d", randNum);
+        sprintf(testRequestName, "test ¹ %d", randNum);
 
         randNum = rand() % 900;
-        sprintf(transactionName, "transaction %d", randNum);
+        sprintf(transactionName, "transaction ¹ %d", randNum);
 
         lr_save_string(projectName, "projectName");
         lr_save_string(testRequestName, "testRequestName");
@@ -2758,7 +2758,7 @@ vuser_init()
 
         return 0;
 }
-# 4 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 4 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2871,10 +2871,10 @@ Action()
                            "Mode=HTML",
                            "EncType=application/json",
                            "Body={body}",
- 
- 
- 
- 
+                           "EXTRARES",
+                           "Url=../static/media/check.9725c0396328bae9471b624111fc14ca.svg",
+                           "Referer=https://dev-boomq.pflb.ru/account/new-test",
+                           "ENDITEM",
                            "LAST");
 
         lr_end_transaction("UC_03_TR_03_createTest", 2);
@@ -2883,12 +2883,12 @@ Action()
 
         return 0;
 }
-# 5 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 5 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\createtest\\\\combined_CreateTest.c" 2
+# 6 "c:\\users\\jdm\\desktop\\qap\\boomq\\scripts\\uc03_createtest\\\\combined_UC_03_CreateTest.c" 2
 

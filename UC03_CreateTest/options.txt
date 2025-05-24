@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\CreateTest
+-IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\UC03_CreateTest
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\jdm\desktop\qap\boomq\scripts\createtest\\logfile.log
-c:\users\jdm\desktop\qap\boomq\scripts\createtest\\combined_CreateTest.c
-c:\users\jdm\desktop\qap\boomq\scripts\createtest\\pre_cci.c
+-ec:\users\jdm\desktop\qap\boomq\scripts\uc03_createtest\\logfile.log
+c:\users\jdm\desktop\qap\boomq\scripts\uc03_createtest\\combined_UC_03_CreateTest.c
+c:\users\jdm\desktop\qap\boomq\scripts\uc03_createtest\\pre_cci.c

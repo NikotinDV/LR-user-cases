@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\JDM\Desktop\QAP\Boomq\Scripts\UC04_CreateTrand
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\jdm\desktop\qap\boomq\scripts\uc04_createtrand\\logfile.log
+c:\users\jdm\desktop\qap\boomq\scripts\uc04_createtrand\\combined_UC_04_CreateTrend.c
+c:\users\jdm\desktop\qap\boomq\scripts\uc04_createtrand\\pre_cci.c

@@ -1,7 +1,7 @@
-HTTP/2.0 201
-Status: 201
+HTTP/2.0 400
+Status: 400
 server: nginx
-date: Fri, 23 May 2025 00:41:47 GMT
+date: Fri, 23 May 2025 12:18:38 GMT
 content-type: application/json
 vary: Origin
 vary: Access-Control-Request-Method
@@ -12,5 +12,4 @@ cache-control: no-cache, no-store, max-age=0, must-revalidate
 pragma: no-cache
 expires: 0
 x-frame-options: DENY
-strict-transport-security: max-age=86400;
 

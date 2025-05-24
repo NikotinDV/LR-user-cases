@@ -1,2 +1,0 @@
-"{"projectId":2518,"testFilterExpressionList":[{"type":"TEST_ID_EXPRESSION","testIdList":[IdLis"
-"t_2,IdList_3]}],"chartProfileList":[],"tableProfileList":[]}"
